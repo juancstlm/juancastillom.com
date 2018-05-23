@@ -9,7 +9,10 @@ export default class About extends React.Component {
         </div>
 
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+          Currently I'm living in San Jose, CA, where I'm pursuing my bachelors degree
+          in Software Engineering at San Jose State Univeristy. Appart from my studies
+          I enjoy mountain biking. If you want to learn more about the projects  I
+          am currently working on, check out them out below.
         </p>
       </div>
     </section>
