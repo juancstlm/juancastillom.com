@@ -26,6 +26,9 @@ export default class Header extends React.Component{
                             <h6>Software Engineer</h6>
                         </div>
                     </div>
+                    <a className='scroll home-s-btn hor-center'>
+                      <span className='dot center'></span>
+                    </a>
                 </div>
             </section>)
     }
