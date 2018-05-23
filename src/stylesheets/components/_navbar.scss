@@ -1,0 +1,26 @@
+.navbar-default {
+  padding: 20px 0 30px;
+  background: none;
+  border: none;
+  border-radius: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  min-height: 5rem;
+}
+.navbar-header {
+   float: left;
+}
+
+.logo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #fff;
+  float: left;
+  padding-top: 15px;
+}
