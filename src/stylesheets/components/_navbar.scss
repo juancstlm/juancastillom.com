@@ -1,5 +1,5 @@
-.navbar-default {
-  padding: 20px 0 30px;
+.navbar{
+  padding: 2rem 0 3rem;
   background: none;
   border: none;
   border-radius: 0;
@@ -9,6 +9,35 @@
   width: 100%;
   z-index: 99;
   min-height: 5rem;
+  margin-bottom: 2rem;
+  background-attachment: scroll;
+  background-clip: border-box;
+
+  .container{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+
+    :before{
+      display: table;
+      content: " ";
+    }
+  }
+  @media (min-width:768px){
+    .container{width:750px}
+  }
+  @media (min-width:992px){
+    .container{width:970px}
+  }
+  @media (min-width:1200px){
+    .container{width:1170px}
+  }
+
+  :before{
+    display: table;
+    content: " ";
+  }
 }
 .navbar-header {
    float: left;

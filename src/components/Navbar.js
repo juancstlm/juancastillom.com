@@ -2,7 +2,7 @@ import React from 'react'
 
 export default class Navbar extends React.Component{
     render(){
-        return <nav className='navbar navbar-default'>
+        return <nav className='navbar'>
             <div className='container'>
                 <div className='navbar-header'>
                     <a href='#'>
