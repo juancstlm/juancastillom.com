@@ -2,7 +2,7 @@ import React from 'react'
 
 export default class About extends React.Component {
   render() {
-    return <section id='about'>
+    return <section id='about' className='one-page-section'>
       <div className='container aboutMe'>
         <div>
           <h2 className='title heading'>About Me</h2>
