@@ -1,8 +1,5 @@
 import React from 'react'
-import {
-    jarallax,
-    jarallaxElement,
-} from 'jarallax';
+import {jarallax} from 'jarallax';
 import WordScroller from './WordScroller'
 const style = {backgroundImage: 'url(http://hisham.bitballoon.com/img/bg.jpg)'}
 const languages = ['Hello', 'Hola', 'Здравствуйте!','Hallo' ]

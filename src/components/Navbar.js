@@ -11,7 +11,6 @@ export default class Navbar extends React.Component {
   }
 
   onScroll(){
-    console.log(window.pageYOffset);
     if (window.pageYOffset > sticky) {
     navbar.classList.add("navbar-sticky")
   } else {
@@ -34,7 +33,7 @@ componentDidMount(){
           </a>
         </div>
         <div className='collapse navbar-collapse'>
-          <ul class="nav">
+          <ul className="nav">
             <li>
               <a href='#home'>Home</a>
             </li>
