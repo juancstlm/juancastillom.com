@@ -13,19 +13,19 @@ export default class Navbar extends React.Component{
                 </div>
                 <div className='collapse navbar-collapse'>
                     <ul class="nav">
-                        <li> <a>Home</a>
+                        <li> <a href='#home'>Home</a>
                         </li>
-                        <li> <a>About</a>
+                        <li> <a href='#about'>About</a>
                         </li>
-                        <li> <a>Experience</a>
+                        <li> <a href='#experience'>Experience</a>
                         </li>
-                        <li> <a>Education</a>
+                        <li> <a href='#education'>Education</a>
                         </li>
-                        <li> <a>Projects</a>
+                        <li> <a href='#projects'>Projects</a>
                         </li>
-                        <li> <a>Skills</a>
+                        <li> <a href='#skills'>Skills</a>
                         </li>
-                        <li> <a>Contact</a>
+                        <li> <a href='#contact'>Contact</a>
                         </li>
                     </ul>
                 </div>
