@@ -12,8 +12,6 @@ export default class Navbar extends React.Component {
   }
 
   onScroll(){
-    console.log(window.scrollY);
-
     if (window.pageYOffset > sticky) {
     navbar.classList.add("navbar-sticky")
   } else {
