@@ -1,8 +1,5 @@
 import React from 'react'
-import {
-    jarallax,
-    jarallaxElement,
-} from 'jarallax';
+import {jarallax} from 'jarallax';
 import WordScroller from './WordScroller'
 const style = {backgroundImage: 'url(http://hisham.bitballoon.com/img/bg.jpg)'}
 const languages = ['Hello', 'Hola', 'Здравствуйте!','Hallo' ]
@@ -26,6 +23,9 @@ export default class Header extends React.Component{
                             <h6>Software Engineer</h6>
                         </div>
                     </div>
+                    <a className='scroll home-s-btn hor-center'>
+                      <span className='dot center'></span>
+                    </a>
                 </div>
             </section>)
     }

@@ -30,7 +30,7 @@ export default class WordScroller extends React.Component{
     return <b>{this.props.words[this.state.activeElement]}</b>
   }
   render(){
-    return <h4>
+    return <h4 className='languages'>
       {this.renderWords()}
     </h4>
   }

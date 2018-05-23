@@ -1,4 +1,7 @@
-.navbar{
+$t-time: 0.28s;
+$default-transition: all $t-time ease-in-out;
+
+.navbar {
   padding: 2rem 0 3rem;
   background: none;
   border: none;
@@ -12,72 +15,157 @@
   margin-bottom: 2rem;
   background-attachment: scroll;
   background-clip: border-box;
+  -webkit-transition: all $t-time ease-in-out;
+  /* Safari */
+  transition: all $t-time ease-in-out;
 
-  .container{
+  .container {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     margin-right: auto;
     margin-left: auto;
-
-    :before{
-      display: table;
-      content: " ";
+  }
+  @media (min-width:768px) {
+    .container {
+      width: 750px;
     }
   }
-  @media (min-width:768px){
-    .container{width:750px}
+  @media (min-width:992px) {
+    .container {
+      width: 970px;
+    }
   }
-  @media (min-width:992px){
-    .container{width:970px}
-  }
-  @media (min-width:1200px){
-    .container{width:1170px}
-  }
-
-  :before{
-    display: table;
-    content: " ";
+  @media (min-width:1200px) {
+    .container {
+      width: 1170px;
+    }
   }
 }
-.nav>li{
-  margin: 25px 20px 0;
+
+.navbar-sticky {
+  padding: 1rem 0 1.5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1c1c1cbf;
+  -webkit-transition: background $t-time, padding $t-time;
+  /* Safari */
+  transition: background $t-time, padding $t-time;
+
+  li {
+    margin: 1rem 2rem 0 !important;
+    transition: margin $t-time, padding $t-time;
+  }
+
+  .logo {
+    padding-top: 0.8rem;
+    -webkit-transition: padding-top $t-time;
+    /* Safari */
+    transition: padding-top $t-time;
+  }
+}
+
+.nav > li {
+  margin: 2.5rem 2rem 0;
   float: left;
   cursor: pointer;
   position: relative;
-  color: #ffffff
+  color: #ffffff;
+  -webkit-transition: margin $t-time;
+  /* Safari */
+  transition: margin $t-time;
 }
-.nav>li>a{
+
+.nav > li > a {
   margin: 0 !important;
   color: #ffffff;
   padding: 0 !important;
 }
-.nav>li .active {
-  color: #Ec145b !important
+
+.nav > li :hover::before{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  border: 1px solid;
+  transition: -webkit-transform 0.3s,opacity 0.3s,width 0.7s,height 0.7s;
+  transition: transform 0.3s,opacity 0.3s,width 0.7s,height 0.7s;
+  transition-timing-function: cubic-bezier(.17,.67,.05,1.29);
+  will-change: transform,opacity,width,height;
+  opacity: 0.4;
+  -webkit-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  transform: translate(0,0);
+  top: 0;
+  left: 0;
+  border-width: 1px 0 0 1px;
+  -webkit-transform: translate(10px,10px);
+  -ms-transform: translate(10px,10px);
+  transform: translate(-.7rem,-.2rem);
 }
+
+.nav > li .active {
+  color: #6deeb9 !important;
+  text-decoration: none !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); //
+}
+.nav> li .active::before{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  border: 1px solid;
+  transition: -webkit-transform 0.3s,opacity 0.3s,width 0.7s,height 0.7s;
+  transition: transform 0.3s,opacity 0.3s,width 0.7s,height 0.7s;
+  transition-timing-function: cubic-bezier(.17,.67,.05,1.29);
+  will-change: transform,opacity,width,height;
+  opacity: 0.4;
+  -webkit-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  transform: translate(0,0);
+  top: 0;
+  left: 0;
+  border-width: 1px 0 0 1px;
+  -webkit-transform: translate(10px,10px);
+  -ms-transform: translate(10px,10px);
+  transform: translate(-.7rem,-.2rem);
+}
+
 .navbar-header {
-   float: left;
+  float: left;
 }
-.nav{
+
+.nav {
   float: right!important;
-  margin-right: -15px;
   margin: 0;
   padding-left: 0;
 }
-.navbar-collapse{
+
+.navbar-collapse {
   display: block!important;
   height: auto!important;
   padding-bottom: 0;
   overflow: visible!important;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
+
 .logo {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: 200;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 0.4rem;
   color: #fff;
   float: left;
-  padding-top: 15px;
+  padding-top: 1.5rem;
+  -webkit-transition: padding-top $t-time;
+  /* Safari */
+  transition: padding-top $t-time;
 }
