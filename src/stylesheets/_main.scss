@@ -1,5 +1,6 @@
 @import "./components/header";
 @import "./components/navbar";
+@import './aboutMe';
 
 $font-stack:    "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 $primary-color: #6deeb9;
@@ -22,7 +23,7 @@ html {
 }
 
 body {
-  color: #fff;
+  color: $secondary-color;
   font-family: $font-stack;
   font-size: 1.6rem;
   font-weight: 400;
@@ -31,4 +32,23 @@ body {
 h1 {
   font-weight: 300;
   font-size: 2.4rem;
+}
+.container{
+  position: static;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width:768px){
+  .container{width:750px}
+}
+@media (min-width:992px){
+  .container{width:970px}
+}
+@media (min-width:1200px){
+  .container{width:1170px}
+}
+.title{
+  color: $secondary-color;
 }
