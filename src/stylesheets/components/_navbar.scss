@@ -1,4 +1,6 @@
-.navbar{
+$t-time: 0.3s;
+
+.navbar {
   padding: 2rem 0 3rem;
   background: none;
   border: none;
@@ -12,72 +14,123 @@
   margin-bottom: 2rem;
   background-attachment: scroll;
   background-clip: border-box;
+  -webkit-transition: background $t-time;
+  /* Safari */
+  transition: background $t-time;
 
-  .container{
+  .container {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     margin-right: auto;
     margin-left: auto;
 
-    :before{
+    :before {
       display: table;
       content: " ";
     }
   }
-  @media (min-width:768px){
-    .container{width:750px}
+  @media (min-width:768px) {
+    .container {
+      width: 750px;
+    }
   }
-  @media (min-width:992px){
-    .container{width:970px}
+  @media (min-width:992px) {
+    .container {
+      width: 970px;
+    }
   }
-  @media (min-width:1200px){
-    .container{width:1170px}
+  @media (min-width:1200px) {
+    .container {
+      width: 1170px;
+    }
   }
 
-  :before{
+  :before {
     display: table;
     content: " ";
   }
 }
-.nav>li{
-  margin: 25px 20px 0;
+
+.navbar-sticky {
+  padding: 1rem 0 1.5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1c1c1cbf;
+  -webkit-transition: background $t-time, padding $t-time;
+  /* Safari */
+  transition: background $t-time, padding $t-time;
+
+  li {
+    margin: 1rem 2rem 0 !important;
+    transition: margin $t-time, padding $t-time;
+  }
+
+  .logo{
+    padding-top: .8rem;
+    -webkit-transition: padding-top $t-time;
+    /* Safari */
+    transition: padding-top $t-time;
+  }
+}
+
+.nav > li {
+  margin: 2.5rem 2rem 0;
   float: left;
   cursor: pointer;
   position: relative;
-  color: #ffffff
+  color: #ffffff;
+  -webkit-transition: margin $t-time;
+  /* Safari */
+  transition: margin $t-time;
 }
-.nav>li>a{
+
+.nav > li > a {
   margin: 0 !important;
   color: #ffffff;
   padding: 0 !important;
 }
-.nav>li .active {
-  color: #Ec145b !important
+
+.nav > li .active {
+  color: #Ec145b !important;
+  text-decoration: underline !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); //
 }
+
 .navbar-header {
-   float: left;
+  float: left;
 }
-.nav{
+
+.nav {
   float: right!important;
-  margin-right: -15px;
   margin: 0;
   padding-left: 0;
 }
-.navbar-collapse{
+
+.navbar-collapse {
   display: block!important;
   height: auto!important;
   padding-bottom: 0;
   overflow: visible!important;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
+
 .logo {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: 200;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: .4rem;
   color: #fff;
   float: left;
-  padding-top: 15px;
+  padding-top: 1.5rem;
+
+  -webkit-transition: padding-top $t-time;
+  /* Safari */
+  transition: padding-top $t-time;
 }
