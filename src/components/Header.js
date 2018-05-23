@@ -3,8 +3,9 @@ import {
     jarallax,
     jarallaxElement,
 } from 'jarallax';
+import WordScroller from './WordScroller'
 const style = {backgroundImage: 'url(http://hisham.bitballoon.com/img/bg.jpg)'}
-
+const languages = ['Hello', 'Hola', 'Здравствуйте!','Hallo' ]
 export default class Header extends React.Component{
 
   componentDidMount() {
@@ -20,8 +21,8 @@ export default class Header extends React.Component{
                 <div className='container'>
                     <div className='middle'>
                         <div className='caption'>
-                            <h4>Hello</h4>
-                            <h1>I Am NAME HERE</h1>
+                            <WordScroller words={languages}/>
+                            <h1>I Am Juan Castillo</h1>
                             <h6>Software Engineer</h6>
                         </div>
                     </div>
