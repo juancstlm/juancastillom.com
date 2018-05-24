@@ -9,9 +9,8 @@ export default class Education extends React.Component {
         </div>
         <div className='education-block'>
           <h3>San Jose State Univeristy</h3>
-          <span>Aug 2014 - Dec 2018</span>
+          <span>Aug 2014 - Present</span>
           <h4>Bachelors of Science in Software Engineering</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.</p>
         </div>
       </div>
     </section>
