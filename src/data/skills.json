@@ -1,0 +1,29 @@
+{
+  "name": "Skills",
+  "skills": [
+    {
+      "skill": "AWS",
+      "longName":"Amazon Web Services",
+      "type":"Platform",
+      "image":"https://static-cdn.jtvnw.net/jtv_user_pictures/e42359b2ac38aa46-profile_image-300x300.png"
+    },
+    {
+      "skill": "Stripe",
+      "longName":"Stripe",
+      "type":"Platform",
+      "image":"https://stripe.com/img/v3/home/twitter.png"
+    },
+    {
+      "skill": "Java",
+      "longName":"Java",
+      "type":"Language",
+      "image":"https://seeklogo.com/images/J/java-logo-41D4155FC3-seeklogo.com.png"
+    },
+    {
+      "skill": "WebStorm",
+      "longName":"WebStrom",
+      "type":"Tool",
+      "image":"https://imgur.com/LwqCcvp.png"
+    }
+  ]
+}
