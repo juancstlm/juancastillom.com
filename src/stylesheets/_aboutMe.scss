@@ -1,7 +1,27 @@
 .aboutMe{
   padding-top: 2rem;
   padding-bottom: 2rem;
+
+  p{
+    width: 50%;
+    float: left;
+    padding: 2rem 2rem;
+  }
 }
 .heading{
   margin: 2rem 0;
+}
+.map{
+  position: relative;
+  display: block;
+  padding: 2rem 2rem;
+  float: left;
+  width: 50%;
+  height: 40rem;
+}
+.clearfix::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
 }
