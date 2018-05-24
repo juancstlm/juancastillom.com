@@ -17,9 +17,6 @@ export default class Skills extends React.Component {
         columnWidth: 200
       }
     })
-    iso.arrange({
-  filter: '.Platform',
-})
     console.log(iso);
   }
 
@@ -37,7 +34,7 @@ export default class Skills extends React.Component {
   }
 
   renderFilterBar(){
-    var filters = ['Platform','Language','Tool' ]
+    var filters = ['Platform','Language','Tool', 'Database' ]
     return <div className='filter-bar' id="filters">
       <button data-filter='*' value='*' onClick={this.skillFilter}>All</button>
       {filters.map((filter)=><button value={filter} onClick={this.skillFilter}
@@ -46,10 +43,8 @@ export default class Skills extends React.Component {
   }
 
   renderSkills(){
-    return skills.skills.map((skill)=>
-    <div className={skill.type + ' grid-item'} data-category={skill.type}>
-      <img src={skill.image} alt={skill.name}/>
-    </div>)
+    return skills.skills.map((skill)=> <SkillCard name={skill.name} image={skill.image}
+    type={skill.type}/>)
   }
   render() {
     return <section id='skills' className='one-page-section'>

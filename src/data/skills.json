@@ -5,25 +5,190 @@
       "skill": "AWS",
       "longName":"Amazon Web Services",
       "type":"Platform",
+      "link":"https://aws.amazon.com/",
       "image":"https://static-cdn.jtvnw.net/jtv_user_pictures/e42359b2ac38aa46-profile_image-300x300.png"
     },
     {
       "skill": "Stripe",
       "longName":"Stripe",
       "type":"Platform",
+      "link":"https://stripe.com/",
       "image":"https://stripe.com/img/v3/home/twitter.png"
     },
     {
       "skill": "Java",
       "longName":"Java",
       "type":"Language",
+      "link":"https://stripe.com/",
       "image":"https://seeklogo.com/images/J/java-logo-41D4155FC3-seeklogo.com.png"
     },
     {
       "skill": "WebStorm",
       "longName":"WebStrom",
       "type":"Tool",
+      "link":"https://www.jetbrains.com/webstorm/",
       "image":"https://imgur.com/LwqCcvp.png"
+    },
+    {
+      "skill": "Ubuntu",
+      "longName":"Ubuntu",
+      "type":"Platform",
+      "link":"https://www.ubuntu.com/",
+      "image":"https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png"
+    },
+    {
+      "skill": "Windows 10",
+      "longName":"Windows 10",
+      "type":"Platform",
+      "link":"https://www.microsoft.com/en-us/windows",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Windows_10_Logo.svg/2000px-Windows_10_Logo.svg.png"
+    },
+    {
+      "skill": "C++",
+      "longName":"C++",
+      "type":"Language",
+      "link":"https://isocpp.org/",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+    },
+    {
+      "skill": "CSS",
+      "longName":"CSS",
+      "type":"Language",
+      "link":"https://www.w3.org/Style/CSS/Overview.en.html",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/2000px-CSS.3.svg.png"
+    },
+    {
+      "skill": "JavaScript",
+      "longName":"JavaScript",
+      "type":"Language",
+      "link":"https://www.javascript.com/",
+      "image":"https://i.stack.imgur.com/Mmww2.png"
+    },
+    {
+      "skill": "NodeJs",
+      "longName":"NodeJs",
+      "type":"Language",
+      "link":"https://nodejs.org/en/",
+      "image":"https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"
+    },
+    {
+      "skill": "Python",
+      "longName":"Python",
+      "type":"Language",
+      "link":"https://nodejs.org/en/",
+      "image":"https://www.python.org/static/community_logos/python-logo-master-v3-TM.png"
+    },
+    {
+      "skill": "SQL",
+      "longName":"SQL",
+      "type":"Language",
+      "link":"http://www.oracle.com/technetwork/database/database-technologies/sql/overview/index.html",
+      "image":"https://www.onlinebooksreview.com/uploads/blog_images/2017/08/19_oracol-sql.jpg"
+    },
+    {
+      "skill": "UML",
+      "longName":"Unified Modeling Language",
+      "type":"Language",
+      "link":"http://uml.org/",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/UML_logo.svg/2000px-UML_logo.svg.png"
+    },
+    {
+      "skill": "Acrobat DC",
+      "longName":"Adobe Acrobat DC",
+      "type":"Tool",
+      "link":"https://acrobat.adobe.com/us/en/acrobat.html?promoid=C12Y324S&mv=other",
+      "image":"https://vignette.wikia.nocookie.net/logopedia-fanon/images/c/c2/Adobe-acrobat-dc-adobe-reader-apk-e1436972848547.png/revision/latest?cb=20160307153232"
+    },
+    {
+      "skill": "Illustrator",
+      "longName":"Adobe Illustrator",
+      "type":"Tool",
+      "link":"https://www.adobe.com/products/illustrator.html?promoid=PGRQQLFS&mv=other",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2000px-Adobe_Illustrator_CC_icon.svg.png"
+    },
+    {
+      "skill": "InDesign",
+      "longName":"Adobe InDesing",
+      "type":"Tool",
+      "link":"https://www.adobe.com/products/indesign.html",
+      "image":"https://seeklogo.com/images/I/indesign-cc-logo-D006452FBD-seeklogo.com.png"
+    },
+    {
+      "skill": "Photoshop",
+      "longName":"Adobe Photoshop",
+      "type":"Tool",
+      "link":"https://www.adobe.com/products/photoshop.html",
+      "image":"https://img.megatorrents.kg/images/356kgzFbOBYsd.jpg"
+    },
+    {
+      "skill": "XD",
+      "longName":"Adobe Experience Design",
+      "type":"Tool",
+      "link":"https://www.adobe.com/products/xd.html",
+      "image":"https://cdn.worldvectorlogo.com/logos/adobe-xd.svg"
+    },
+    {
+      "skill": "AWS CLI",
+      "longName":"AWS Command Line Interface",
+      "type":"Tool",
+      "link":"https://aws.amazon.com/cli/",
+      "image":"https://i0.wp.com/manjaro.site/wp-content/uploads/2017/09/aws-cli-logo.jpg?resize=640%2C381&ssl=1"
+    },
+    {
+      "skill": "Android Studio",
+      "longName":"Android Studio",
+      "type":"Tool",
+      "link":"https://developer.android.com/studio/",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Android_Studio_icon.svg/2000px-Android_Studio_icon.svg.png"
+    },
+    {
+      "skill": "Data Grip",
+      "longName":"Data Grip",
+      "type":"Tool",
+      "link":"https://www.jetbrains.com/datagrip/",
+      "image":"https://pbs.twimg.com/profile_images/875384803453014017/VW8VRA2P_400x400.jpg"
+    },
+    {
+      "skill": "CLion",
+      "longName":"CLion",
+      "type":"Tool",
+      "link":"https://www.jetbrains.com/clion/",
+      "image":"http://resources.jetbrains.com/storage/products/clion/img/meta/clion_logo_300x300.png"
+    },
+    {
+      "skill": "GitHub",
+      "longName":"GitHub",
+      "type":"Tool",
+      "link":"https://github.com/",
+      "image":"https://www.aha.io/assets/github.7433692cabbfa132f34adb034e7909fa.png"
+    },
+    {
+      "skill": "Visual Studio",
+      "longName":"Visual Studio",
+      "type":"Tool",
+      "link":"https://www.visualstudio.com/",
+      "image":"https://venturebeat.com/wp-content/uploads/2015/06/visual_studio_purple.png?fit=578%2C287&strip=all"
+    },
+    {
+      "skill": "MySQL",
+      "longName":"MySQL",
+      "type":"Database",
+      "link":"https://www.mysql.com/",
+      "image":"https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png"
+    },
+    {
+      "skill": "DynamoDB",
+      "longName":"DynamoDB",
+      "type":"Database",
+      "link":"https://aws.amazon.com/dynamodb/",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png"
+    },
+    {
+      "skill": "AWS Lambda",
+      "longName":"AWS Lambda",
+      "type":"Platform",
+      "link":"https://aws.amazon.com/lambda/",
+      "image":"https://cdn-images-1.medium.com/max/925/1*foHs8AleRqNMimdXsK9hAA.png"
     }
   ]
 }
