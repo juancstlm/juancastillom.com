@@ -2,6 +2,8 @@
 @import "./components/navbar";
 @import './aboutMe';
 @import './components/wordscroller';
+@import './education';
+@import './contact';
 
 $font-stack:    "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 $primary-color: #6deeb9;
@@ -55,4 +57,13 @@ h1 {
 }
 .one-page-section{
   padding: 10rem 0;
+}
+.one-page-section-dark{
+  padding: 10rem 0;
+  background: #263033;
+  color: $primary-color;
+
+  .title{
+    color: $primary-color;
+  }
 }

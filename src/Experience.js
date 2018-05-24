@@ -7,10 +7,7 @@ export default class Experience extends React.Component {
         <div>
           <h2 className='title heading'>Experience</h2>
         </div>
-
-        <p>
-
-        </p>
+        
       </div>
     </section>
   }

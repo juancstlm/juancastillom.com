@@ -4,6 +4,8 @@ import React from 'react'
 var navbar
 var sticky
 var sections = []
+
+window.scrollTo({behavior: 'smooth'})
 export default class Navbar extends React.Component {
 
   constructor(){
@@ -30,11 +32,8 @@ export default class Navbar extends React.Component {
 
       var selected = navbar.querySelectorAll('a[href*="#'+id+'"]').forEach((node) => {
         node.classList.add('active')
-        console.log('node',node);
       })
-      console.log('selected',selected);
     }
-    console.log(sections[i].offsetTop)
   }
   }
 componentDidMount(){
