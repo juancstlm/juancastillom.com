@@ -42,6 +42,16 @@ export default class Navbar extends React.Component {
     navbar = document.getElementById("navbar");
 
     sticky = navbar.offsetTop;
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
   }
 
   render() {
