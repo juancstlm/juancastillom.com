@@ -9,7 +9,7 @@ export default class Footer extends React.Component{
 
       </div>
       <div className='copyright clearfix'>
-       Copyright © {new Date().getFullYear()}
+       Copyright © {new Date().getFullYear()} Juan Castillo
       </div>
     </footer>
   }
