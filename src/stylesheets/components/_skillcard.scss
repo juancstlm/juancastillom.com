@@ -1,7 +1,15 @@
 .skill-card{
   padding: 1rem;
-  max-width: 7rem;
+  max-width: 8rem;
+  transition: all 0.1s;
   img{
     width: 100%;
   }
+}
+.skill-card:hover{
+  max-width: 10rem;
+}
+.skill-card:hover::before{
+  content: '';
+  background: black;
 }
