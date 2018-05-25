@@ -6,7 +6,6 @@ import imagesLoaded from 'imagesloaded'
 var grid
 var iso
 var skills = require('./data/skills.json')
-console.log(skills);
 
 export default class Skills extends React.Component {
 
@@ -21,7 +20,6 @@ export default class Skills extends React.Component {
   }
 
   skillFilter=(data)=>{
-    console.log(data.target);
     if(data.target.value === '*'){
       iso.arrange({
         filter: data.target.value,
@@ -38,13 +36,13 @@ export default class Skills extends React.Component {
     var filters = ['Platform','Language','Tool', 'Database' ]
     return <div className='filter-bar' id="filters">
       <button data-filter='*' value='*' onClick={this.skillFilter}>All</button>
-      {filters.map((filter)=><button value={filter} onClick={this.skillFilter}
+      {filters.map((filter)=><button key={filter} value={filter} onClick={this.skillFilter}
         data-filter={filter}>{filter}</button>)}
       </div>
     }
 
     renderSkills(){
-      return skills.skills.map((skill)=> <SkillCard name={skill.name} image={skill.image}
+      return skills.skills.map((skill)=> <SkillCard key={skill.skill} name={skill.longName} image={skill.image}
         type={skill.type}/>)
       }
       render() {

@@ -11,7 +11,7 @@ export default class SkillCard extends React.Component{
 }
 
 SkillCard.propTypes = {
-  name: PropTypes.string.isRquired,
+  name: PropTypes.string.isRequired,
   type: PropTypes.string,
-  image: PropTypes.string.isRquired,
+  image: PropTypes.string.isRequired,
 }
