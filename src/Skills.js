@@ -21,7 +21,7 @@ export default class Skills extends React.Component {
   }
 
   skillFilter=(data)=>{
-    console.log(data.target.value);
+    console.log(data.target);
     if(data.target.value === '*'){
       iso.arrange({
         filter: data.target.value,
@@ -34,6 +34,7 @@ export default class Skills extends React.Component {
   }
 
   renderFilterBar(){
+
     var filters = ['Platform','Language','Tool', 'Database' ]
     return <div className='filter-bar' id="filters">
       <button data-filter='*' value='*' onClick={this.skillFilter}>All</button>

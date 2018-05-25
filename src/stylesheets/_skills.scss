@@ -1,16 +1,48 @@
 .filter-bar{
   width: 100%;
+  text-align: center;
 
   button{
     margin: 0 2rem 1rem;
     padding: 1rem 2rem;
-    border: none;
     background: none;
     color: #2f3a49;
+    border-color: #2f3a49;
     font-weight: bold;
     font-size: 1.6rem;
     height: 4rem;
+    display: inline-block;
+    position: relative;
+    padding: 1.1em 2em;
+    margin-bottom: 0.25em;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+    outline: 0;
+    text-shadow: none;
+    background: none;
+    border-radius: 0;
+    transition: all 0.1s;
+    -webkit-appearance: button;
+    border-style: solid;
     cursor: pointer;
   }
+
+  button:hover{
+    background: #2f3a49;
+    border-color: #71FFD9;
+    color: #71FFD9;
+  }
+
+  button:active{
+    background: #2f3a49;
+    border-color: #71FFD9;
+    color: #71FFD9;
+  }
+}
+.grid{
+
 }
 .grid-item { width: 25%; }
