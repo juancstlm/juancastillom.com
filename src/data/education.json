@@ -1,0 +1,10 @@
+[
+  {
+    "name": "San Jose State Univerisy",
+    "degree": "Bachelors of Science in Software Engineering",
+    "startDate": "August 2014",
+    "endDate": "Present",
+    "description": "",
+    "logo": "./images/sjsu.png"
+  }
+]

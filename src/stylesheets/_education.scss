@@ -2,15 +2,29 @@
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid #dcd9d9;
+    border: 1px solid #263033;
     text-align: left;
+
+    img{
+      width: 100%;
+    }
+}
+.school-logo{
+  display: inline-block;
+  width: 10%;
+  padding-right: 3.5rem;
+}
+.school-info{
+  display: inline-block;
+  width: 90%
 }
 .education-block span {
     color: #74808a;
+    font-weight: bold;
     float: right;
 }
 .education-block h3 {
-    font-weight: 500;
+    font-weight: 600;
     float: left;
     margin: 0;
     color: #374054;
@@ -18,7 +32,7 @@
 .education-block h4 {
     color: #74808a;
     clear: both;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 0 15px 0;
 }
 .education-block p, .education-block ul {
