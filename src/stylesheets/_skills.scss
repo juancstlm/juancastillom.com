@@ -2,8 +2,15 @@
   width: 100%;
 
   button{
-    width: 4rem;
+    margin: 0 2rem 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    background: none;
+    color: #2f3a49;
+    font-weight: bold;
+    font-size: 1.6rem;
     height: 4rem;
+    cursor: pointer;
   }
 }
 .grid-item { width: 25%; }

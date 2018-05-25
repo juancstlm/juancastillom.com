@@ -1,6 +1,7 @@
 import React from 'react'
 import SkillCard from './components/SkillCard'
 import Isotope from 'isotope-layout'
+import imagesLoaded from 'imagesloaded'
 
 var grid
 var iso
@@ -11,25 +12,24 @@ export default class Skills extends React.Component {
 
   componentDidMount() {
     grid = document.querySelector('.grid');
-    iso = new Isotope(grid, {
-      itemSelector: '.grid-item',
-      masonry: {
-        columnWidth: 200
-      }
-    })
-    console.log(iso);
+    imagesLoaded( grid, function() {
+      // init Isotope after all images have loaded
+      iso = new Isotope(grid, {
+        itemSelector: '.grid-item',
+      })
+    });
   }
 
   skillFilter=(data)=>{
     console.log(data.target.value);
     if(data.target.value === '*'){
       iso.arrange({
-            filter: data.target.value,
-        })
+        filter: data.target.value,
+      })
     } else{
       iso.arrange({
-            filter: '.'+data.target.value,
-        })
+        filter: '.'+data.target.value,
+      })
     }
   }
 
@@ -38,25 +38,25 @@ export default class Skills extends React.Component {
     return <div className='filter-bar' id="filters">
       <button data-filter='*' value='*' onClick={this.skillFilter}>All</button>
       {filters.map((filter)=><button value={filter} onClick={this.skillFilter}
-         data-filter={filter}>{filter}</button>)}
-    </div>
-  }
-
-  renderSkills(){
-    return skills.skills.map((skill)=> <SkillCard name={skill.name} image={skill.image}
-    type={skill.type}/>)
-  }
-  render() {
-    return <section id='skills' className='one-page-section'>
-      <div className='container'>
-        <div>
-          <h2 className='title heading'>Skills</h2>
-        </div>
-        {this.renderFilterBar()}
-        <div className='grid'>
-                  {this.renderSkills()}
-        </div>
+        data-filter={filter}>{filter}</button>)}
       </div>
-    </section>
-  }
-}
+    }
+
+    renderSkills(){
+      return skills.skills.map((skill)=> <SkillCard name={skill.name} image={skill.image}
+        type={skill.type}/>)
+      }
+      render() {
+        return <section id='skills' className='one-page-section'>
+          <div className='container'>
+            <div>
+              <h2 className='title heading'>Skills</h2>
+            </div>
+            {this.renderFilterBar()}
+            <div className='grid'>
+              {this.renderSkills()}
+            </div>
+          </div>
+        </section>
+      }
+    }
