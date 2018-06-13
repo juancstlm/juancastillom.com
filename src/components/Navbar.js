@@ -38,6 +38,13 @@ export default class Navbar extends React.Component {
       }
     }
   }
+
+  showMobileMenu=()=>{
+    var overlay = document.getElementById('overlay')
+    overlay.className === 'overlay' ? overlay.classList.add('hidden') : overlay.classList.remove('hidden')
+    var navbar = document.getElementById('nav-mobile');
+    navbar.className === 'nav-mobile' ? navbar.className += ' open' : navbar.className = 'nav-mobile'
+  }
   componentDidMount() {
     navbar = document.getElementById("navbar");
 
@@ -54,18 +61,45 @@ export default class Navbar extends React.Component {
     });
   }
 
+  renderNavList = ()=>{
+    return <ul className="nav" id='nav'>
+      <li>
+        <a href='#home'>Home</a>
+      </li>
+      <li>
+        <a href='#about'>About</a>
+      </li>
+      <li>
+        <a href='#experience'>Experience</a>
+      </li>
+      <li>
+        <a href='#education'>Education</a>
+      </li>
+      <li>
+        <a href='#projects'>Projects</a>
+      </li>
+      <li>
+        <a href='#skills'>Skills</a>
+      </li>
+      <li>
+        <a href='#contact'>Contact</a>
+      </li>
+      <a className='icon' onClick={this.showMobileMenu}>
+        <i class="fa fa-bars"></i>
+      </a>
+    </ul>
+  }
+
   render() {
-    return <nav id='navbar' className='navbar'>
-      <div className='container'>
+    return <div>
+      <div id='nav-mobile' className='nav-mobile'>
         <div className='navbar-header'>
-          <a href='#'>
+          <a href='/#'>
             <div className='logo'>
               Juan
             </div>
           </a>
-        </div>
-        <div className='collapse navbar-collapse'>
-          <ul className="nav">
+          <ul className="nav" id='nav'>
             <li>
               <a href='#home'>Home</a>
             </li>
@@ -90,6 +124,23 @@ export default class Navbar extends React.Component {
           </ul>
         </div>
       </div>
-    </nav>
+      <div id='overlay' className='overlay hidden'></div>
+      <nav id='navbar' className='navbar'>
+        <div className='container'>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+          <div className='navbar-header'>
+            <a href='/#'>
+              <div className='logo'>
+                Juan
+              </div>
+            </a>
+          </div>
+          <div className='collapse navbar-collapse'>
+            {this.renderNavList()}
+          </div>
+        </div>
+      </nav>
+    </div>
+
   }
 }
