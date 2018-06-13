@@ -9,6 +9,7 @@ import Projects from './Projects'
 import Skills from './Skills'
 import Contact from './Contact'
 import BehindTheScenes from './components/BehindTheScenes'
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <Projects/>
           <Skills/>
           <Contact/>
+          <Footer/>
       </div>
     );
   }
