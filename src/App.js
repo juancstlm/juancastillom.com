@@ -8,6 +8,7 @@ import Education from './Education'
 import Projects from './Projects'
 import Skills from './Skills'
 import Contact from './Contact'
+import BehindTheScenes from './components/BehindTheScenes'
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Navbar/>
           <Header/>
           <About/>
+          <BehindTheScenes/>
           <Experience/>
           <Education/>
           <Projects/>
