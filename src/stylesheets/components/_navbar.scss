@@ -165,6 +165,7 @@ $default-transition: all $t-time ease-in-out;
   */
   .nav-mobile{
     display: block;
+    opacity: 0;
     width: 0;
     height: 100%;
     position: fixed;
@@ -189,6 +190,7 @@ $default-transition: all $t-time ease-in-out;
     }
   }
   .open{
+    opacity: 1;
     width: 55%;
   }
 
