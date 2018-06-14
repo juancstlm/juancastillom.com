@@ -1,7 +1,7 @@
 import React from 'react'
 import {jarallax} from 'jarallax';
 import WordScroller from './WordScroller'
-const style = {backgroundImage: 'url(http://hisham.bitballoon.com/img/bg.jpg)'}
+const style = {backgroundImage: 'url(images/bg.jpg)'}
 const languages = ['Hello', 'Hola', 'Здравствуйте!','Hallo' ]
 export default class Header extends React.Component{
 
