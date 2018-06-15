@@ -13,7 +13,6 @@ export default class BehindTheScenes extends React.Component{
     return <div className='jarallax' data-jarallax data-speed="0.2"
                 style={style}
               >
-
             </div>
   }
 }
