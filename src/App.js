@@ -8,6 +8,7 @@ import Education from './Education'
 import Projects from './Projects'
 import Skills from './Skills'
 import Contact from './Contact'
+import BehindTheScenes from './components/BehindTheScenes'
 import Footer from './components/Footer'
 
 class App extends Component {
@@ -17,8 +18,9 @@ class App extends Component {
           <Navbar/>
           <Header/>
           <About/>
-          <Experience/>
-          <Education/>
+          <BehindTheScenes/>
+          {/* <Experience/> */}
+          {/* <Education/> */}
           <Projects/>
           <Skills/>
           <Contact/>

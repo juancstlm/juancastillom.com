@@ -5,10 +5,3 @@
     width: 100%;
   }
 }
-.skill-card:hover{
-  max-width: 10rem;
-}
-.skill-card:hover::before{
-  content: '';
-  background: black;
-}
