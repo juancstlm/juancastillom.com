@@ -16,7 +16,7 @@ export default class About extends React.Component {
         </p>
 
         <div className='map'>
-          <iframe src="https://snazzymaps.com/embed/73391" width="100%" height="100%"
+          <iframe src="https://snazzymaps.com/embed/73391"  title='map' width="100%" height="100%"
           style={{border: 'none'}}>
           </iframe>
         </div>
