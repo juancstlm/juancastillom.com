@@ -18,3 +18,15 @@ footer{
   padding: 2rem 0;
   text-align: center;
 }
+.social_links{
+  text-align: center;
+  padding-top: 3rem;
+  a{
+    padding: 0 1rem;
+  }
+  img{
+    opacity: .8;
+    height: 4rem !important;
+    width: 4rem !important;
+  }
+}
