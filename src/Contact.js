@@ -32,6 +32,12 @@ export default class Contact extends React.Component {
               <button className='submit button'>Send</button>
             </p>
           </form>
+
+          <div>
+            <p>To contact me directly via email click 
+              <a href="mailto:juancstlm@gmail.com?subject=Contact">
+                here</a></p>
+          </div>
         </div>
       </div>
     </section>
