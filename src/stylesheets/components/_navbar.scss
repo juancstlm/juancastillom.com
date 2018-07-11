@@ -243,6 +243,7 @@ $default-transition: all $t-time ease-in-out;
 
 .hidden{
   opacity: 0;
+  display: hidden;
 }
 
 .overlay{
