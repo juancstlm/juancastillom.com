@@ -7,7 +7,7 @@ export default class Footer extends React.Component{
     return <footer className="jarallax" data-jarallax data-speed="0.2" style={style} >
       <div className='container'>
         <div className='logo'>
-            <img alt='Logo'></img>
+            <img src='./images/logo.png' alt='logo'></img>
         </div>
         <div className='social_links'>
           <a href='https://www.flickr.com/photos/164979468@N08/'>
