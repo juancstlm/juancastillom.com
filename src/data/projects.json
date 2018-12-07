@@ -1,0 +1,22 @@
+[
+  {
+    "name": "WeMart",
+    "description": "Used ReactJS, AWS, and Stripe to create an on-line shopping portal. Worked to integrate the back end DynamoDB database with our front end team.",
+    "achievement": "Selected as the team with the best product from 7 teams.",
+    "image": "./images/projects/wemart.png",
+    "link": "",
+    "source": "https://github.com/timroesner/WeMart",
+    "startDate": "",
+    "completitionDate": ""
+  },
+  {
+    "name": "WeMart",
+    "description": "Used ReactJS, AWS, and Stripe to create an on-line shopping portal. Worked to integrate the back end DynamoDB database with our front end team.",
+    "achievement": "Selected as the team with the best product from 7 teams.",
+    "image": "./images/projects/wemart.png",
+    "link": "",
+    "source": "https://github.com/timroesner/WeMart",
+    "startDate": "",
+    "completitionDate": ""
+  }
+]
