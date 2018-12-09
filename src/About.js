@@ -9,10 +9,7 @@ export default class About extends React.Component {
         </div>
 
         <p>
-          Currently I'm living in San Jose, CA, where I'm pursuing my bachelors degree
-          in Software Engineering at San Jose State Univeristy. Appart from my studies
-          I enjoy mountain biking. If you want to learn more about the projects  I
-          am currently working on, check out them out below.
+          I currently live in San Jose, CA, while attending San Jose State University.
         </p>
       </div>
     </section>

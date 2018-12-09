@@ -1,3 +1,9 @@
 language: node_js
 node_js:
   - "node"
+
+deploy:
+  provider: s3
+  access_key_id: "AKIAIIDZXLPGRUOMZ6OA"
+  secret_access_key: "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"
+  bucket: "juancastillom.com"

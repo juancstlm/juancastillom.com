@@ -1,7 +1,7 @@
 import React from "react";
 import WordScroller from "./WordScroller";
 const style = {
-  backgroundImage: "url(http://hisham.bitballoon.com/img/bg.jpg)"
+  backgroundImage: "url(https://i.imgur.com/8ymmfvv.jpg)"
 };
 const languages = ["Hello", "Hola", "Здравствуйте!", "Hallo"];
 export default class Header extends React.Component {
