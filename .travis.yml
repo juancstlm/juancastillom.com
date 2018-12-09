@@ -2,7 +2,6 @@ language: node_js
 node_js:
   - "node"
 install:
-- npm cache clean
 - npm install
 script:
 - npm run test
