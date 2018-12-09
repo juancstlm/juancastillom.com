@@ -14,7 +14,7 @@ deploy:
   access_key_id: "AKIAIIDZXLPGRUOMZ6OA"
   secret_access_key: "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"
   bucket: "juancastillom.com"
-  endpoint: "https://s3.us-west-2.amazonaws.com"
+  endpoint: "https://s3.us-west-1.amazonaws.com"
   skip_cleanup: true
-  region: "us-west-2"
+  region: "us-west-1"
   acl: public_read
