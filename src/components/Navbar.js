@@ -54,7 +54,7 @@ export default class Navbar extends React.Component {
       <nav id="navbar" className="navbar">
         <div className="container">
           <div className="navbar-header">
-            <a href="#">
+            <a href="/">
               <div className="logo">Juan</div>
             </a>
           </div>
