@@ -1,35 +1,32 @@
-import React from 'react'
-import {jarallax} from 'jarallax';
-import WordScroller from './WordScroller'
-const style = {backgroundImage: 'url(images/bg.jpg)'}
-const languages = ['Hello', 'Hola', 'Здравствуйте!','Hallo' ]
-export default class Header extends React.Component{
-
-  componentDidMount() {
-      jarallax(document.querySelectorAll('.jarallax'));
-    }
-    componentWillUnmount() {
-   jarallax(document.querySelectorAll('.jarallax'), 'destroy');
+import React from "react";
+import WordScroller from "./WordScroller";
+const style = {
+  backgroundImage: "url(https://i.imgur.com/8ymmfvv.jpg)"
+};
+const languages = ["Hello", "Hola", "Здравствуйте!", "Hallo"];
+export default class Header extends React.Component {
+  render() {
+    return (
+      <section
+        id="home"
+        className="header rellax"
+        style={style}
+        data-jarallax
+        data-speed="0.2"
+      >
+        <div className="container">
+          <div className="middle">
+            <div className="caption">
+              <WordScroller words={languages} />
+              <h1>I Am Juan Castillo</h1>
+              <h6>Software Engineer</h6>
+            </div>
+          </div>
+          <a className="scroll home-s-btn hor-center">
+            <span className="dot center" />
+          </a>
+        </div>
+      </section>
+    );
   }
-    render(){
-        return(
-            <section id='home' className='header jarallax'
-                     style={style} data-jarallax data-speed="0.2">
-                <div className='container'>
-                    <div className='middle'>
-                        <div className='caption'>
-                            {/* <WordScroller words={languages}/> */}
-                            <h4 className='languages'>
-                              Hello
-                            </h4>
-                            <h1>I Am Juan Castillo</h1>
-                            <h6>Software Engineer</h6>
-                        </div>
-                    </div>
-                    <a className='scroll home-s-btn hor-center'>
-                      <span className='dot center'></span>
-                    </a>
-                </div>
-            </section>)
-    }
 }
