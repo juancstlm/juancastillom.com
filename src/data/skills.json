@@ -1,0 +1,194 @@
+{
+  "name": "Skills",
+  "skills": [
+    {
+      "skill": "AWS",
+      "longName":"Amazon Web Services",
+      "type":"Platform",
+      "link":"https://aws.amazon.com/",
+      "image":"./images/aws.png"
+    },
+    {
+      "skill": "Stripe",
+      "longName":"Stripe",
+      "type":"Platform",
+      "link":"https://stripe.com/",
+      "image":"./images/stripe.png"
+    },
+    {
+      "skill": "Java",
+      "longName":"Java",
+      "type":"Language",
+      "link":"https://www.oracle.com/java/index.html",
+      "image":"./images/java.png"
+    },
+    {
+      "skill": "WebStorm",
+      "longName":"WebStrom",
+      "type":"Tool",
+      "link":"https://www.jetbrains.com/webstorm/",
+      "image":"./images/webstorm.png"
+    },
+    {
+      "skill": "Ubuntu",
+      "longName":"Ubuntu",
+      "type":"Platform",
+      "link":"https://www.ubuntu.com/",
+      "image":"./images/ubuntu.png"
+    },
+    {
+      "skill": "Windows 10",
+      "longName":"Windows 10",
+      "type":"Platform",
+      "link":"https://www.microsoft.com/en-us/windows",
+      "image":"./images/windows10.png"
+    },
+    {
+      "skill": "C++",
+      "longName":"C++",
+      "type":"Language",
+      "link":"https://isocpp.org/",
+      "image":"./images/c++.png"
+    },
+    {
+      "skill": "CSS",
+      "longName":"CSS",
+      "type":"Language",
+      "link":"https://www.w3.org/Style/CSS/Overview.en.html",
+      "image":"./images/css.png"
+    },
+    {
+      "skill": "JavaScript",
+      "longName":"JavaScript",
+      "type":"Language",
+      "link":"https://www.javascript.com/",
+      "image":"./images/js.png"
+    },
+    {
+      "skill": "NodeJs",
+      "longName":"NodeJs",
+      "type":"Language",
+      "link":"https://nodejs.org/en/",
+      "image":"./images/nodejs.png"
+    },
+    {
+      "skill": "Python",
+      "longName":"Python",
+      "type":"Language",
+      "link":"https://nodejs.org/en/",
+      "image":"./images/python.png"
+    },
+    {
+      "skill": "SQL",
+      "longName":"SQL",
+      "type":"Language",
+      "link":"http://www.oracle.com/technetwork/database/database-technologies/sql/overview/index.html",
+      "image":"./images/oraclesql.jpg"
+    },
+    {
+      "skill": "UML",
+      "longName":"Unified Modeling Language",
+      "type":"Language",
+      "link":"http://uml.org/",
+      "image":"./images/uml.png"
+    },
+    {
+      "skill": "Acrobat DC",
+      "longName":"Adobe Acrobat DC",
+      "type":"Tool",
+      "link":"https://acrobat.adobe.com/us/en/acrobat.html?promoid=C12Y324S&mv=other",
+      "image":"./images/acrobat.png"
+    },
+    {
+      "skill": "Illustrator",
+      "longName":"Adobe Illustrator",
+      "type":"Tool",
+      "link":"https://www.adobe.com/products/illustrator.html?promoid=PGRQQLFS&mv=other",
+      "image":"./images/illustrator.png"
+    },
+    {
+      "skill": "InDesign",
+      "longName":"Adobe InDesing",
+      "type":"Tool",
+      "link":"https://www.adobe.com/products/indesign.html",
+      "image":"./images/indesign.png"
+    },
+    {
+      "skill": "Photoshop",
+      "longName":"Adobe Photoshop",
+      "type":"Tool",
+      "link":"https://www.adobe.com/products/photoshop.html",
+      "image":"./images/photoshop.jpg"
+    },
+    {
+      "skill": "XD",
+      "longName":"Adobe Experience Design",
+      "type":"Tool",
+      "link":"https://www.adobe.com/products/xd.html",
+      "image":"./images/adobexd.svg"
+    },
+    {
+      "skill": "AWS CLI",
+      "longName":"AWS Command Line Interface",
+      "type":"Tool",
+      "link":"https://aws.amazon.com/cli/",
+      "image":"./images/awscli.jpg"
+    },
+    {
+      "skill": "Android Studio",
+      "longName":"Android Studio",
+      "type":"Tool",
+      "link":"https://developer.android.com/studio/",
+      "image":"./images/androidstudio.png"
+    },
+    {
+      "skill": "Data Grip",
+      "longName":"Data Grip",
+      "type":"Tool",
+      "link":"https://www.jetbrains.com/datagrip/",
+      "image":"./images/datagrip.jpg"
+    },
+    {
+      "skill": "CLion",
+      "longName":"CLion",
+      "type":"Tool",
+      "link":"https://www.jetbrains.com/clion/",
+      "image":"./images/clion.png"
+    },
+    {
+      "skill": "GitHub",
+      "longName":"GitHub",
+      "type":"Tool",
+      "link":"https://github.com/",
+      "image":"./images/github.png"
+    },
+    {
+      "skill": "Visual Studio",
+      "longName":"Visual Studio",
+      "type":"Tool",
+      "link":"https://www.visualstudio.com/",
+      "image":"./images/visualstudio.png"
+    },
+    {
+      "skill": "MySQL",
+      "longName":"MySQL",
+      "type":"Database",
+      "link":"https://www.mysql.com/",
+      "image":"./images/mysql.png"
+    },
+    {
+      "skill": "DynamoDB",
+      "longName":"DynamoDB",
+      "type":"Database",
+      "link":"https://aws.amazon.com/dynamodb/",
+      "image":"./images/dynamodb.png"
+    },
+    {
+      "skill": "AWS Lambda",
+      "longName":"AWS Lambda",
+      "type":"Platform",
+      "link":"https://aws.amazon.com/lambda/",
+      "image":"./images/awslambda.png"
+    }
+  ]
+}

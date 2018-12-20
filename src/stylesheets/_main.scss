@@ -2,6 +2,10 @@
 @import "./components/navbar";
 @import './aboutMe';
 @import './components/wordscroller';
+@import './education';
+@import './contact';
+@import './skills';
+@import './components/footer';
 
 $font-stack:    "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 $primary-color: #6deeb9;
@@ -31,8 +35,17 @@ body {
 }
 
 h1 {
-  font-weight: 300;
-  font-size: 2.4rem;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 44px;
+}
+h3{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+a{
+  color: $primary-color;
 }
 .container{
   position: static;
@@ -55,4 +68,13 @@ h1 {
 }
 .one-page-section{
   padding: 10rem 0;
+}
+.one-page-section-dark{
+  padding: 10rem 0;
+  background: #263033;
+  color: $primary-color;
+
+  .title{
+    color: $primary-color;
+  }
 }
