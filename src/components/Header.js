@@ -1,5 +1,6 @@
 import React from "react";
 import WordScroller from "./WordScroller";
+
 const style = {
   backgroundImage: "url(https://i.imgur.com/8ymmfvv.jpg)"
 };

@@ -1,10 +1,8 @@
 import React from 'react'
-import {jarallax} from 'jarallax'
-const style = {backgroundImage: 'url(./images/footer.jpg)'}
 
 export default class Footer extends React.Component{
   render(){
-    return <footer className="jarallax" data-jarallax data-speed="0.2" style={style} >
+    return <footer >
       <div className='container'>
         <div className='logo'>
             <img src='./images/logo.png' alt='logo'></img>
@@ -17,9 +15,6 @@ export default class Footer extends React.Component{
             <img src='./images/social/github_logo.svg'></img>
           </a>
         </div>
-      </div>
-      <div className='copyright clearfix'>
-       Copyright © {new Date().getFullYear()} Juan Castillo
       </div>
     </footer>
   }
