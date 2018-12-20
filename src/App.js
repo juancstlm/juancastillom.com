@@ -18,12 +18,12 @@ class App extends Component {
           <Navbar/>
           <Header/>
           <About/>
-          <BehindTheScenes/>
+          {/*<BehindTheScenes/>*/}
           {/* <Experience/> */}
           {/* <Education/> */}
-          <Projects/>
-          <Skills/>
-          <Contact/>
+          {/*<Projects/>*/}
+          {/*<Skills/>*/}
+          {/*<Contact/>*/}
           <Footer/>
       </div>
     );
