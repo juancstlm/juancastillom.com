@@ -72,6 +72,11 @@
     animation: dot-animation 1.8s infinite ease-in-out;
 }
 
+.header .container .middle .caption h1 {
+  line-height: 5.6rem;
+  font-size: 4.8rem;
+}
+
 /*Smooth Scroll Button animation*/
 @-webkit-keyframes dot-animation {
 	0% {
