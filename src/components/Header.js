@@ -1,4 +1,7 @@
 import React from "react";
+import MarkdownViewer from './MarkdownViewer'
+const about = require("../data/about.md");
+
 
 export default class Header extends React.Component {
   render() {
@@ -10,8 +13,7 @@ export default class Header extends React.Component {
         <div className="container">
           <div className="middle">
             <div className="caption">
-              <h1>I Am Juan Castillo</h1>
-              <h6>Software Engineer</h6>
+              <MarkdownViewer src={about}/>
             </div>
           </div>
           <a className="scroll home-s-btn hor-center">
