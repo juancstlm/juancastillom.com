@@ -1,27 +1,15 @@
-import React from 'react'
-import marked from 'marked'
+import React from "react";
+import PropTypes from "prop-types";
 
-export default class MarkdownViewer extends React.Component{
+export default class MarkdownViewer extends React.Component {
   state = {
-    markdown: '',
-  }
-
-  componentDidMount() {
-    const readmePath = this.props.src
-
-    fetch(readmePath)
-      .then(response => {
-        return response.text()
-      })
-      .then(text => {
-        this.setState({
-          markdown: marked(text)
-        })
-      })
-  }
+    markdown: ""
+  };
 
   render() {
-    const { markdown } = this.state;
-    return <div dangerouslySetInnerHTML={{__html:markdown}} />;
+    return <div dangerouslySetInnerHTML={{ __html: this.props.src }} />;
   }
 }
+MarkdownViewer.propTypes = {
+  src: PropTypes.any.isRequired
+};

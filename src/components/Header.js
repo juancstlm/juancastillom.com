@@ -1,33 +1,26 @@
 import React from "react";
-import WordScroller from "./WordScroller";
+import MarkdownViewer from './MarkdownViewer'
+const about = require("../data/about.md");
 
-const style = {
-  backgroundImage: "url(https://i.imgur.com/8ymmfvv.jpg)"
-};
-const languages = ["Hello", "Hola", "Здравствуйте!", "Hallo"];
+
 export default class Header extends React.Component {
   render() {
     return (
-      <section
+      <div
         id="home"
-        className="header rellax"
-        style={style}
-        data-jarallax
-        data-speed="0.2"
+        className="header"
       >
         <div className="container">
           <div className="middle">
             <div className="caption">
-              <WordScroller words={languages} />
-              <h1>I Am Juan Castillo</h1>
-              <h6>Software Engineer</h6>
+              <MarkdownViewer src={about}/>
             </div>
           </div>
           <a className="scroll home-s-btn hor-center">
             <span className="dot center" />
           </a>
         </div>
-      </section>
+      </div>
     );
   }
 }
