@@ -1,6 +1,6 @@
 import React from "react";
 import MarkdownViewer from "./MarkdownViewer";
-const contact = require("../data/footer.md");
+var contact = require("../data/footer.md");
 
 export default class Footer extends React.Component {
   render() {
