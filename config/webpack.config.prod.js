@@ -12,6 +12,8 @@ const eslintFormatter = require('react-dev-utils/eslintFormatter');
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const paths = require('./paths');
 const getClientEnvironment = require('./env');
+const marked = require("marked");
+const markdownLoader = new marked.Renderer();
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // It requires a trailing slash, or the file assets will get an incorrect path.
@@ -142,6 +144,22 @@ module.exports = {
               limit: 10000,
               name: 'static/media/[name].[hash:8].[ext]',
             },
+          },
+          /// Markdown
+          {
+            test: /\.md$/,
+            use: [
+              {
+                loader: "html-loader"
+              },
+              {
+                loader: "markdown-loader",
+                options: {
+                  pedantic: true,
+                  markdownLoader
+                }
+              }
+            ]
           },
           // Process JS with Babel.
           {
