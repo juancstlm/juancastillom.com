@@ -6,7 +6,7 @@ const about = require("../data/about.md");
 export default class Header extends React.Component {
   render() {
     return (
-      <section
+      <div
         id="home"
         className="header"
       >
@@ -20,7 +20,7 @@ export default class Header extends React.Component {
             <span className="dot center" />
           </a>
         </div>
-      </section>
+      </div>
     );
   }
 }
