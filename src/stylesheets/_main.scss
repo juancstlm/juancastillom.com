@@ -47,35 +47,31 @@ li{
   list-style: none;
 }
 button{
-  margin: 0;
   box-shadow: $shadow;
   padding: 1rem 2rem;
   background: none;
-  color: #2f3a49;
-  border-color: #2f3a49;
   font-weight: bold;
   font-size: 1.6rem;
   height: 4rem;
   display: inline-block;
   position: relative;
-  padding: 1.1em 2em;
-  margin-bottom: 0.25em;
-  font-size: 11px;
-  font-weight: bold;
+  margin: 3rem 0 0.25em;
   text-transform: uppercase;
   line-height: 1.2;
   letter-spacing: 0.08em;
   outline: 0;
   text-shadow: none;
-  background: none;
   border-radius: 0;
-  transition: all 0.1s;
+  transition: all 200ms ease;
   -webkit-appearance: button;
-  border-style: solid;
   cursor: pointer;
+  background: #2f3a49;
+  border: solid #71FFD9;
+  color: #71FFD9;
 }
 
 button:hover{
+  padding: 1rem 4rem;
   background: #2f3a49;
   border-color: #71FFD9;
   color: #71FFD9;
@@ -85,6 +81,17 @@ button:active{
   background: #2f3a49;
   border-color: #71FFD9;
   color: #71FFD9;
+}
+section {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  overflow: visible;
 }
 .container{
   position: static;
