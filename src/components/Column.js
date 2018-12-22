@@ -6,10 +6,9 @@ export default class Column extends React.Component {
     return (
       <section className="column">
         <div className="info">
-          <img className="icon" src="images/projects/wemart-icon.png" />
+          <img className="icon" src="images/projects/wemart-icon.png" alt='icon'/>
           <h2>WeMart</h2>
-          <p>
-            🛒 Online grocery shopping portal. Created as part of the course
+          <p><span role='img' aria-label='shopping cart'>🛒</span> Online grocery shopping portal. Created as part of the course
             CmpE 133 during spring 2018. The objective was rebuilt the old
             Safeway.com and redesign it using React.
           </p>
@@ -37,7 +36,7 @@ export default class Column extends React.Component {
             slowerScrollRate
             tag="figure"
           >
-            <img src="images/projects/wemart.png" />
+            <img src="images/projects/wemart.png" alt='preview' />
           </Parallax>
         </div>
       </section>
