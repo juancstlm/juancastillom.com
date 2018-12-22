@@ -30,13 +30,21 @@ export default class Column extends React.Component {
         </div>
         <div className="images">
           <Parallax
-            className="custom-class"
+            className="preview1"
             offsetYMax={10}
             offsetYMin={-10}
             slowerScrollRate
             tag="figure"
           >
             <img src="images/projects/wemart.png" alt='preview' />
+          </Parallax>
+          <Parallax
+            className="preview2"
+            offsetYMax={10}
+            offsetYMin={-10}
+            tag="figure"
+          >
+            <img src="images/projects/wemart-mobile.png" alt='preview' />
           </Parallax>
         </div>
       </section>
