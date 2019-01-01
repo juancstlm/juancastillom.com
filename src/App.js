@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.scss'
 import Header from "./components/Header";
 import Footer from './components/Footer'
-import Column from "./components/Column";
 import { ParallaxProvider } from "react-scroll-parallax";
+import ProjectGrid from "./components/ProjectGrid";
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <ParallaxProvider>
       <div className={'layout'}>
           <Header/>
-          <Column/>
+          <ProjectGrid projects={require('./data/projects')}/>
           <Footer/>
       </div>
       </ParallaxProvider>
