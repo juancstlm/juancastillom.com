@@ -1,31 +1,32 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Parallax } from "react-scroll-parallax";
 
 export default class Column extends React.Component {
   render() {
+    const props = this.props;
     return (
       <section className="column">
         <div className="info">
-          <img className="icon" src="images/projects/wemart-icon.png" alt='icon'/>
-          <h2>WeMart</h2>
-          <p><span role='img' aria-label='shopping cart'>🛒</span> Online grocery shopping portal. Created as part of the course
-            CmpE 133 during spring 2018. The objective was rebuilt the old
-            Safeway.com and redesign it using React.
+          <img className="icon" src={props.icon} alt='icon'/>
+          <h2>{props.name}</h2>
+          <p>{props.description}
           </p>
           <div className="divider" />
           <ul>
             <li>
-              <strong>Role:</strong> Front-end developer
+              <strong>Role:</strong>{` ${props.role}`}
             </li>
             <li>
-              <strong>Team:</strong> PM + 7 Devs and me
+              <strong>Team:</strong>{` ${props.team}`}
             </li>
             <li>
-              <strong>Date:</strong> Jan. 2018
+              <strong>Date:</strong>{` ${props.date}`}
             </li>
           </ul>
+          {/*TODO If no demo grey out the button*/}
           <button className="submit button">
-            <a href="https://wemart-133.herokuapp.com">Launch website →</a>
+            <a href={props.demo}>{props.demoString}</a>
           </button>
         </div>
         <div className="images">
@@ -36,7 +37,7 @@ export default class Column extends React.Component {
             slowerScrollRate
             tag="figure"
           >
-            <img src="images/projects/wemart.png" alt='preview' />
+            <img src={props.images[0]} alt='preview' />
           </Parallax>
           <Parallax
             className="preview2"
@@ -44,10 +45,23 @@ export default class Column extends React.Component {
             offsetYMin={-10}
             tag="figure"
           >
-            <img src="images/projects/wemart-mobile.png" alt='preview' />
+            <img src={props.images[1]} alt='preview' />
           </Parallax>
         </div>
       </section>
     );
   }
+}
+
+Column.propTypes = {
+  name: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  role: PropTypes.string.isRequired,
+  team: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  source: PropTypes.string.isRequired,
+  demo: PropTypes.string.isRequired,
+  demoString: PropTypes.string.isRequired,
+  images: PropTypes.array.isRequired,
 }

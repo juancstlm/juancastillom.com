@@ -1,12 +1,14 @@
 [
   {
     "name": "WeMart",
+    "icon": "images/projects/wemart-icon.png",
     "description": "🛒 Online grocery shopping portal. Created as part of the course CmpE 133 during spring 2018. The objective was rebuilt the oldSafeway.com and redesign it using React",
     "role":"Front-end developer",
     "team":"PM + 7 Devs and me",
-    "Date":"Jan. 2018",
+    "date":"Jan. 2018",
     "source": "https://github.com/timroesner/WeMart",
     "demo": "https://wemart-133.herokuapp.com",
+    "demoString": "Launch website →",
     "images":["images/projects/wemart.png", "images/projects/wemart-mobile.png"]
   }
 ]
