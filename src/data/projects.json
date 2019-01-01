@@ -1,22 +1,12 @@
 [
   {
     "name": "WeMart",
-    "description": "Used ReactJS, AWS, and Stripe to create an on-line shopping portal. Worked to integrate the back end DynamoDB database with our front end team.",
-    "achievement": "Selected as the team with the best product from 7 teams.",
-    "image": "./images/projects/wemart.png",
-    "link": "",
+    "description": "🛒 Online grocery shopping portal. Created as part of the course CmpE 133 during spring 2018. The objective was rebuilt the oldSafeway.com and redesign it using React",
+    "role":"Front-end developer",
+    "team":"PM + 7 Devs and me",
+    "Date":"Jan. 2018",
     "source": "https://github.com/timroesner/WeMart",
-    "startDate": "",
-    "completitionDate": ""
-  },
-  {
-    "name": "WeMart",
-    "description": "Used ReactJS, AWS, and Stripe to create an on-line shopping portal. Worked to integrate the back end DynamoDB database with our front end team.",
-    "achievement": "Selected as the team with the best product from 7 teams.",
-    "image": "./images/projects/wemart.png",
-    "link": "",
-    "source": "https://github.com/timroesner/WeMart",
-    "startDate": "",
-    "completitionDate": ""
+    "demo": "https://wemart-133.herokuapp.com",
+    "images":["images/projects/wemart.png", "images/projects/wemart-mobile.png"]
   }
 ]
