@@ -29,6 +29,7 @@ export default class Column extends React.Component {
             <a href={props.demo}>{props.demoString}</a>
           </button>
         </div>
+
         <div className="images">
           <Parallax
             className="preview1"

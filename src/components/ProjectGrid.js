@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Column from "./Column";
 
 export default class ProjectGrid extends React.Component {
-  
+
   renderProjects = () => {
     return this.props.projects.map(project => (
       <Column

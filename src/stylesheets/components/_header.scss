@@ -11,25 +11,19 @@
     margin-right: auto;
     margin-left: auto;
   }
-  .caption{
-    text-align: left;
-    margin-top: 50px;
-    color: #fff;
-  }
   .middle{
     z-index: 9;
   }
 }
-.middle {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 0;
-  -webkit-transform: translate(0%, -50%);
-  -moz-transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  -o-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
+
+section.middle {
+  text-align: left;
+  padding-top: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 840px;
 }
 .center {
     position: absolute;
@@ -52,7 +46,6 @@
 }
 .hor-center {
     z-index: 1;
-    position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -72,11 +65,43 @@
     animation: dot-animation 1.8s infinite ease-in-out;
 }
 
-.header .container .middle .caption h1 {
-  line-height: 5.6rem;
-  font-size: 4.8rem;
+section h1 {
+  color: $secondary-color;
+  text-align: left;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 7.6rem;
 }
 
+section .scroll{
+  max-width: 28px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+@media (max-width: $tablet){
+  section.middle h1 {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+  }
+
+  section.middle {
+    max-width: 64rem;
+  }
+}
+
+@media (max-width: $mobile){
+  section.middle h1 {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+  }
+
+  section.middle {
+    max-width: 48rem;
+  }
+}
 /*Smooth Scroll Button animation*/
 @-webkit-keyframes dot-animation {
 	0% {
