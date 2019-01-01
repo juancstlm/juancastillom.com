@@ -1,7 +1,7 @@
 [
   {
     "name": "WeMart",
-    "description": "Used ReactJS, AWS, and Stripe to create an on-line shopping portal. Worked to integrate the back end DynamoDB database with our front end team.",
+    "description": "🛒 Online grocery shopping portal. Created as part of the course CmpE 133 during spring 2018. The objective was rebuilt the oldSafeway.com and redesign it using React",
     "role":"Front-end developer",
     "team":"PM + 7 Devs and me",
     "Date":"Jan. 2018",
