@@ -25,10 +25,11 @@ body {
 }
 
 h1 {
-  color: $secondary-color;
-  font-weight: 700;
-  font-size: 3.6em;
-  line-height: 44px;
+  font-family: 'proximaNovaSemibold', Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 39px;
+  text-align: center;
+  padding: 4rem 0 2rem 0;
 }
 h3{
   font-weight: 700;
@@ -87,6 +88,7 @@ section {
   max-width: 100%;
   overflow: visible;
 }
+
 .container{
   position: static;
   padding-right: 15px;
@@ -110,10 +112,20 @@ section {
   }
 }
 .layout{
-  padding: 0 4rem;
+  max-width: 144rem;
+  padding: 0 8rem;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media (max-width: $desk){
+  .layout {
+    padding: 0 4rem;
+  }
 }
 @media (max-width: $mobile){
   .layout{
-    padding: 0 2rem;
+    padding: 0 4rem;
   }
 }
