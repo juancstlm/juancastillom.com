@@ -75,11 +75,16 @@
     background-color: #CCCCCC;
     margin: 3rem 0;
   }
+
   .preview1{
+    z-index: 4;
     position: absolute;
   }
   .preview2{
-    z-index: 3;
+    z-index: 5;
+  }
+  .preview3{
+    z-index: 2;
   }
 }
 @media (max-width: $tablet){
@@ -112,6 +117,9 @@
   }
 
   .preview2{
+    display: none;
+  }
+  .preview3{
     display: none;
   }
 }
