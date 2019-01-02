@@ -64,7 +64,6 @@ button{
   border: solid #71FFD9;
   color: #71FFD9;
 }
-
 button:hover{
   padding: 1rem 4rem;
   background: #2f3a49;
@@ -77,6 +76,17 @@ button:active{
   border-color: #71FFD9;
   color: #71FFD9;
 }
+button.disabled{
+  background: #2f3a49;
+  border-color: #2f3a49;
+  box-shadow: none;
+  cursor: auto;
+  color: #FFF !important;
+}
+button.disabled:hover{
+  padding: 1rem 2rem;
+  cursor: default;
+}
 section {
   padding: 0;
   margin: 0;
@@ -87,6 +97,10 @@ section {
   width: 100%;
   max-width: 100%;
   overflow: visible;
+}
+
+parallax{
+  position: absolute;
 }
 
 .container{

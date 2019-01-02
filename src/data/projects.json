@@ -2,13 +2,25 @@
   {
     "name": "WeMart",
     "icon": "images/projects/wemart-icon.png",
-    "description": "🛒 Online grocery shopping portal. Created as part of the course CmpE 133 during spring 2018. The objective was rebuilt the oldSafeway.com and redesign it using React",
+    "description": "🛒 Online grocery shopping portal. Created as part of the course CmpE 133 during spring 2018. The objective was to redesign the old Safeway.com using React.",
     "role":"Front-end developer",
     "team":"PM + 7 Devs and me",
     "date":"Jan. 2018",
     "source": "https://github.com/timroesner/WeMart",
     "demo": "https://wemart-133.herokuapp.com",
     "demoString": "Launch website →",
-    "images":["images/projects/wemart.png", "images/projects/wemart-mobile.png"]
+    "images":["images/projects/wemart-mobile.png", "images/projects/wemart.png"]
+  },
+  {
+    "name": "SmartInventory",
+    "icon": "images/projects/smartinventory-icon.png",
+    "description": "Inventory management application with AI for item classification. Stay tuned for the beta.",
+    "role":"Full stack developer",
+    "team":"4 Devs and me",
+    "date":"Jan. 2018",
+    "source": "https://github.com/juancstlm/Smart-Inventory",
+    "demo": "",
+    "demoString": "Coming Soon",
+    "images":["images/projects/smartinventory1.png", "images/projects/smartinventory2.png", "images/projects/smartinventory3.png"]
   }
 ]
