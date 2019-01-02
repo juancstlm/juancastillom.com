@@ -34,7 +34,7 @@ export default class Column extends React.Component {
             <Parallax
               className="preview3"
               offsetYMax={10}
-              offsetYMin={55}
+              offsetYMin={-20}
               tag="div"
             >
               <img src={props.images[2]} alt="preview" />
