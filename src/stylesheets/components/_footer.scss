@@ -1,6 +1,8 @@
-footer{
+footer {
   height: 40rem;
-  .logo{
+  padding-bottom: 10rem;
+  margin-top: 25rem;
+  .logo {
     margin: 4rem;
     text-align: center;
     height: 12.8rem;
@@ -10,14 +12,15 @@ footer{
     margin-right: auto;
   }
 }
-.social_links{
+
+.social_links {
   text-align: center;
   padding-top: 3rem;
-  a{
+  a {
     padding: 0 1rem;
   }
-  img{
-    opacity: .8;
+  img {
+    opacity: 0.8;
     height: 4rem !important;
     width: 4rem !important;
   }

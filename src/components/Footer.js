@@ -10,9 +10,7 @@ export default class Footer extends React.Component {
           <div className="logo">
             <img src="./images/logo.png" alt="logo" />
           </div>
-          <div>
-            <MarkdownViewer src={contact}/>
-          </div>
+          <MarkdownViewer src={contact} />
         </div>
       </footer>
     );
