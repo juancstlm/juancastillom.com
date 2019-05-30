@@ -1,9 +1,21 @@
 [
   {
+    "name": "Set",
+    "icon": "images/projects/set-icon.png",
+    "description": "iOS game based on the Set card game",
+    "role":"Developer",
+    "team":"Myself",
+    "date":"Apr. 2019",
+    "source": "https://github.com/juancstlm/Set-Game-for-iOS",
+    "demo": "",
+    "demoString": "Coming Soon",
+    "images":["images/projects/set-screenshot-1.png", "images/projects/set-screenshot-2.png"]
+  },
+  {
     "name": "WeMart",
     "icon": "images/projects/wemart-icon.png",
     "description": "🛒 Online grocery shopping portal. Created as part of the course CmpE 133 during spring 2018. The objective was to redesign the old Safeway.com using React.",
-    "role":"Front-end developer",
+    "role":"Developer",
     "team":"PM + 7 Devs and me",
     "date":"Jan. 2018",
     "source": "https://github.com/timroesner/WeMart",
@@ -12,7 +24,7 @@
     "images":["images/projects/wemart-mobile.png", "images/projects/wemart.png"]
   },
   {
-    "name": "SmartInventory",
+    "name": "Smart Inventory",
     "icon": "images/projects/smartinventory-icon.png",
     "description": "Inventory management application with AI for item classification. Stay tuned for the beta.",
     "role":"Full stack developer",
