@@ -3,6 +3,7 @@ node_js:
   - "node"
 install:
 - npm install
+- npm rebuild node-sass
 script:
 - npm run test
 - npm run build
