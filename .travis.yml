@@ -11,8 +11,8 @@ before_deploy:
 
 deploy:
   provider: s3
-  access_key_id: $AWS_KEY
-  secret_access_key: $AWS_SECRET
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_KEY
   bucket: "juancastillom.com"
   endpoint: "https://s3.us-west-1.amazonaws.com"
   skip_cleanup: true
