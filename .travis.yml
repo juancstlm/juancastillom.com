@@ -11,10 +11,11 @@ before_deploy:
 
 deploy:
   provider: s3
-  access_key_id: "AKIAIIDZXLPGRUOMZ6OA"
+  access_key_id: secure: "az8qTM921mf4OcmnI7ZPo/YSqxCiVqvlEQnawW7S/9nol+mLkQJlN2Py5rwmk8y6nC3NbSYjiY6AXl6+16kVvhUGSYtfDBz9BhVJ8+yc/6+kq7K4WOQ0Icfjc2R7Ks07maaStAaw+26czDNgyJ8iGohfmTw+Q5ID20yMOC2BEundz7JDwe6iwuvGMpPXSWJ1djS7nFDQeK9M1vqm67myB59op0hH3JNuBHCzhTXM6Nxr8Rc9x5BpmkRnrbJWIYnpl1n5I3ASezPxVqVNtikYnWob+RSWMRo4kh50R8T67v2GtLUhQ2Vu5hac994SXUlJtFOuNoXu1PEY72wF93ij4lbiOVfsDltmreD++SEkjeflfEST9kTp8MoxUUtU/wixnGq02h7ilTojYueAOD0ah2iN8lNkuufmBM0mAbUO1ZZJcmJLXb2CZioxrPRxEnuXQfpnm9BVplnAzPyxtpBXmcCmMCvIYKYepVLbrFq2AOAomDrcalGPTXMg8hq6dTFQjqI4tB74n8ayRNKnJ7i235RE4tc3PtzbWBF2B6hTXyE3h66UxagKY14YfsyEWOi1Zs6IQZ1xECsfkTvJMHMmuoWZ7biT3r2zBWvM4oa8Xt/Jnhg1FS1NXXG9/SUKvThgPzcb9J3seEeqrqs6wf8Pso++472/5+jARV5UXe7BlUA="
   secret_access_key: "VgDCXcvG7t+BokgwCA1MqPg5XlMpDO80A1ZiLecF"
   bucket: "juancastillom.com"
   endpoint: "https://s3.us-west-1.amazonaws.com"
   skip_cleanup: true
   region: "us-west-1"
   acl: public_read
+
