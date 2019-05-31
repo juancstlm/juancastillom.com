@@ -11,10 +11,11 @@ before_deploy:
 
 deploy:
   provider: s3
-  access_key_id: "AKIAIIDZXLPGRUOMZ6OA"
-  secret_access_key: "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"
+  access_key_id: $AWS_KEY
+  secret_access_key: $AWS_SECRET
   bucket: "juancastillom.com"
   endpoint: "https://s3.us-west-1.amazonaws.com"
   skip_cleanup: true
   region: "us-west-1"
   acl: public_read
+
