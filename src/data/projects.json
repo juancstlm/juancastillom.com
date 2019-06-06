@@ -25,6 +25,18 @@
     "images":["images/projects/set-screenshot-1.png", "images/projects/set-screenshot-2.png"]
   },
   {
+    "name": "WeBnb",
+    "icon": "images/projects/webnb-icon.png",
+    "description": "Online responsive hotel reservation website. Created as part of the course CMPE 165 during fall  2018. The goal was to develop a production ready hotel reservation site from the ground up.",
+    "role":"Developer",
+    "team":"PM + 7 Devs and me",
+    "date":"Dec. 2018",
+    "source": "https://github.com/randomite/WeBnb-client-server",
+    "demo": "https://webnb-frontend.herokuapp.com/",
+    "demoString": "Launch website →",
+    "images":["images/projects/webnb-2.png", "images/projects/webnb-1.png"]
+  },
+  {
     "name": "WeMart",
     "icon": "images/projects/wemart-icon.png",
     "description": "🛒 Online grocery shopping portal. Created as part of the course CmpE 133 during spring 2018. The objective was to redesign the old Safeway.com using React.",
