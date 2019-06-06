@@ -1,5 +1,18 @@
 [
   {
+    "name": "VDO",
+    "icon": "images/projects/vdo-icon.png",
+    "description": "iOS mobile app to share videos privately with friends. ",
+    "role":"Developer",
+    "team":"1 Developer and Me",
+    "date":"May 2019",
+    "source": "",
+    "demo": "",
+    "demoString": "Coming Soon",
+    "images":["images/projects/vdo-2.png", "images/projects/vdo-1.png", "images/projects/vdo-3.png"],
+    "tech": ["Firebase", "iOS", "Swift"]
+  },
+  {
     "name": "Set",
     "icon": "images/projects/set-icon.png",
     "description": "iOS game based on the Set card game",
