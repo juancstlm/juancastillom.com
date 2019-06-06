@@ -2,7 +2,7 @@
   {
     "name": "VDO",
     "icon": "images/projects/vdo-icon.png",
-    "description": "iOS mobile app to share videos privately with friends. ",
+    "description": "iOS mobile app to share videos privately with friends. Created the final project for SJSU CMPE 137 spring 2019. ",
     "role":"Developer",
     "team":"1 Developer and Me",
     "date":"May 2019",
@@ -15,7 +15,7 @@
   {
     "name": "Set",
     "icon": "images/projects/set-icon.png",
-    "description": "iOS game based on the Set card game",
+    "description": "iOS game based on the Set card game. Created as a learning project while learning Swift. ",
     "role":"Developer",
     "team":"Myself",
     "date":"Apr. 2019",
@@ -23,6 +23,18 @@
     "demo": "",
     "demoString": "Coming Soon",
     "images":["images/projects/set-screenshot-1.png", "images/projects/set-screenshot-2.png"]
+  },
+  {
+    "name": "WeBnb",
+    "icon": "images/projects/webnb-icon.png",
+    "description": "Online responsive hotel reservation website. Created as part of the course CMPE 165 during fall  2018. The goal was to develop a production ready hotel reservation site from the ground up.",
+    "role":"Developer",
+    "team":"PM + 7 Devs and me",
+    "date":"Dec. 2018",
+    "source": "https://github.com/randomite/WeBnb-client-server",
+    "demo": "https://webnb-frontend.herokuapp.com/",
+    "demoString": "Launch website →",
+    "images":["images/projects/webnb-2.png", "images/projects/webnb-1.png"]
   },
   {
     "name": "WeMart",
