@@ -1,5 +1,17 @@
 [
   {
+    "name": "WSIGTE (Where Should I Go To Eat?)",
+    "icon": "images/projects/wsigte-icon.png",
+    "description": "A website that will recommend places to eat based on your location. Built using Node js and Apple's new MapKit JS framework. Created as a tribute to WTFSIGTE.COM",
+    "role":"Developer",
+    "team":"Myself",
+    "date":"Jun. 2019",
+    "source": "https://github.com/juancstlm/WSIGTE",
+    "demo": "https://wsigte.herokuapp.com/",
+    "demoString": "Launch website →",
+    "images":["images/projects/wsigte-2.png", "images/projects/wsigte-1.png"]
+  },
+  {
     "name": "VDO",
     "icon": "images/projects/vdo-icon.png",
     "description": "iOS mobile app to share videos privately with friends. Created as the final project for SJSU CMPE 137 spring 2019. ",
