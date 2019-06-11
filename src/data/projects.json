@@ -2,7 +2,7 @@
   {
     "name": "WSIGTE (Where Should I Go To Eat?)",
     "icon": "images/projects/wsigte-icon.png",
-    "description": "A website that will recommend places to eat based on your location. Built using Node js and Apple's MapKit JS framework. Created as a tribute to WTFSIGTE.COM",
+    "description": "A website that will recommend places to eat based on your location. Built using Node JS and Apple's MapKit JS framework. Created as a tribute to WTFSIGTE.COM",
     "role":"Developer",
     "team":"Myself",
     "date":"Jun. 2019",
