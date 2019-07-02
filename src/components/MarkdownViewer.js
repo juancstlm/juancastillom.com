@@ -1,15 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export default class MarkdownViewer extends React.Component {
-  state = {
-    markdown: ""
-  };
+const MarkdownViewer = ({ markdown }) => {
+  return <div dangerouslySetInnerHTML={{ __html: markdown }} />;
+};
 
-  render() {
-    return <div dangerouslySetInnerHTML={{ __html: this.props.src }} />;
-  }
-}
+export default MarkdownViewer;
+
 MarkdownViewer.propTypes = {
-  src: PropTypes.any.isRequired
+  markdown: PropTypes.any.isRequired
 };
