@@ -1,4 +1,6 @@
 # juancastillom.com
+[![Build Status](https://travis-ci.com/juancstlm/portfolio.svg?branch=master)](https://travis-ci.com/juancstlm/portfolio)
+
 Portfolio style website to showcase my projects.
 
 # Usage
