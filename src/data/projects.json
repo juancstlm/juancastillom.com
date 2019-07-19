@@ -56,7 +56,7 @@
     "team":"PM + 7 developers and me",
     "date":"Jan. 2018",
     "source": "https://github.com/timroesner/WeMart",
-    "demo": "https://wemart-133.herokuapp.com",
+    "demo": "https://wemartv2.herokuapp.com",
     "demoString": "Launch website →",
     "images":["images/projects/wemart-mobile.png", "images/projects/wemart.png"]
   },
