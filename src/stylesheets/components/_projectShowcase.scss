@@ -47,6 +47,11 @@
 
   }
 
+  .project-links{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   ul{
     li strong {
       color: #202020;

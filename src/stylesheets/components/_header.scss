@@ -16,14 +16,21 @@
   }
 }
 
+section#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 section.middle {
   text-align: left;
-  padding-top: 200px;
+  //padding-top: 200px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   max-width: 840px;
+  height: 100vh;
 }
 .center {
     position: absolute;
@@ -76,9 +83,8 @@ section h1 {
 section .scroll{
   max-width: 28px;
   width: 100%;
-  margin: 0 auto;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin: 10vh auto;
+  padding: 20px 0;
 }
 
 @media (max-width: $tablet){
@@ -100,6 +106,7 @@ section .scroll{
 
   section.middle {
     max-width: 48rem;
+    padding-top: 10vh;
   }
 }
 /*Smooth Scroll Button animation*/

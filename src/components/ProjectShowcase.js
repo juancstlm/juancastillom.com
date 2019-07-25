@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Parallax } from "react-scroll-parallax";
+import Button from "./common/Button/Button";
 
 const ProjectShowcase = ({ project }) => {
   const {
@@ -12,7 +13,9 @@ const ProjectShowcase = ({ project }) => {
     date,
     demo,
     demoString,
-    images
+    images,
+    tech,
+    source
   } = project;
 
   const renderImages = () => {
@@ -55,16 +58,6 @@ const ProjectShowcase = ({ project }) => {
     );
   };
 
-  const buttonClass = demo !== "" ? "submit button" : "submit button disabled";
-
-  const demoButton = (
-    <button className={buttonClass}>
-      <a href={demo} aria-disabled={true}>
-        {demoString}
-      </a>
-    </button>
-  );
-
   return (
     <section className="column">
       <div className="info">
@@ -85,8 +78,15 @@ const ProjectShowcase = ({ project }) => {
             <strong>Date:</strong>
             {` ${date}`}
           </li>
+          <li>
+            <strong>Technology:</strong>
+            {` ${tech.join(', ')}`}
+          </li>
         </ul>
-        {demoButton}
+        <div className={'project-links'}>
+          <Button link={demo} disabled={!demo}>{demoString}</Button>
+          {source ?  <Button buttonStyle={'secondary'} link={source}>Source Code</Button> : null}
+        </div>
       </div>
       {renderImages()}
     </section>

@@ -3,13 +3,15 @@
     "name": "WSIGTE (Where Should I Go To Eat?)",
     "icon": "images/projects/wsigte-icon.png",
     "description": "A website that will recommend places to eat based on your location. Built using Node JS and Apple's MapKit JS framework. Created as a tribute to WTFSIGTE.COM",
-    "role":"Developer",
+    "role":"Sole Developer",
     "team":"Myself",
     "date":"Jun. 2019",
     "source": "https://github.com/juancstlm/WSIGTE",
-    "demo": "https://wsigte.herokuapp.com/",
-    "demoString": "Launch website →",
-    "images":["images/projects/wsigte-2.png", "images/projects/wsigte-1.png"]
+    "demo": "https://wsigte.com",
+    "demoString": "Demo",
+    "images":["images/projects/wsigte-2.png", "images/projects/wsigte-1.png"],
+    "tech": ["React", "MapKit JS", "JWT", "Express", "AWS Lambda", "Travis", "Jest"],
+    "isCurrentProject": true
   },
   {
     "name": "VDO",
@@ -22,7 +24,8 @@
     "demo": "",
     "demoString": "Coming Soon",
     "images":["images/projects/vdo-2.png", "images/projects/vdo-1.png", "images/projects/vdo-3.png"],
-    "tech": ["Firebase", "iOS", "Swift"]
+    "tech": ["Swift", "UIKit", "AVFoundation", "AVKit", "MobileCoreServices", "Firebase"],
+    "isCurrentProject": false
   },
   {
     "name": "Set",
@@ -34,31 +37,37 @@
     "source": "https://github.com/juancstlm/Set-Game-for-iOS",
     "demo": "",
     "demoString": "Coming Soon",
-    "images":["images/projects/set-screenshot-1.png", "images/projects/set-screenshot-2.png"]
+    "images":["images/projects/set-screenshot-1.png", "images/projects/set-screenshot-2.png"],
+    "tech": ["Swift", "UIKit"],
+    "isCurrentProject": false
   },
   {
     "name": "WeBnb",
     "icon": "images/projects/webnb-icon.png",
     "description": "Online responsive hotel reservation website. Created as part of the course CMPE 165 during fall  2018. The goal was to develop a production ready hotel reservation site from the ground up.",
-    "role":"Lead front-end developer",
+    "role":"Lead front-end developer / Designer",
     "team":"PM + 7 developers and me",
     "date":"Dec. 2018",
     "source": "https://github.com/randomite/WeBnb-client-server",
     "demo": "https://webnb-frontend.herokuapp.com/",
-    "demoString": "Launch website →",
-    "images":["images/projects/webnb-2.png", "images/projects/webnb-1.png"]
+    "demoString": "Demo",
+    "images":["images/projects/webnb-2.png", "images/projects/webnb-1.png"],
+    "tech": ["React", "Redux", "MATERIAL-UI", "SASS", "Axios", "Flask", "AWS Cognito"],
+    "isCurrentProject": false
   },
   {
     "name": "WeMart",
     "icon": "images/projects/wemart-icon.png",
     "description": "🛒 Online grocery shopping portal. Created as part of the course CmpE 133 during spring 2018. The objective was to redesign the old Safeway.com using React.",
-    "role":"Developer",
+    "role":"Developer / Designer",
     "team":"PM + 7 developers and me",
     "date":"Jan. 2018",
     "source": "https://github.com/timroesner/WeMart",
     "demo": "https://wemartv2.herokuapp.com",
-    "demoString": "Launch website →",
-    "images":["images/projects/wemart-mobile.png", "images/projects/wemart.png"]
+    "demoString": "Demo",
+    "images":["images/projects/wemart-mobile.png", "images/projects/wemart.png"],
+    "tech": ["React ", "Redux", "Jest","Instacart Snacks", "AWS Lambda", "Stripe", "Algolia", "AWS Dynamo", "AWS Cognito"],
+    "isCurrentProject": true
   },
   {
     "name": "Smart Inventory",
@@ -70,6 +79,8 @@
     "source": "https://github.com/juancstlm/Smart-Inventory",
     "demo": "",
     "demoString": "Coming Soon",
-    "images":["images/projects/smartinventory1.png", "images/projects/smartinventory2.png", "images/projects/smartinventory3.png"]
+    "images":["images/projects/smartinventory1.png", "images/projects/smartinventory2.png", "images/projects/smartinventory3.png"],
+    "tech": ["React Native", "Redux", "Firebase", "Clarifai"],
+    "isCurrentProject": false
   }
 ]
