@@ -1,1 +1,1 @@
-# I am [Juan Castillo](https://juancastillom.com).<br> A software engineer based in San Jose
+# I am [Juan Castillo](https://juancastillom.com).<br> A software engineer based in California
