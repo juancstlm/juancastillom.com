@@ -98,7 +98,7 @@
     "html-loader": "^0.5.5",
     "markdown-loader": "^4.0.0",
     "marked": "^0.7.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react-test-renderer": "^16.8.6",
     "sass-loader": "^7.1.0",
     "travis-ci-cloudfront-invalidation": "^1.1.0",
