@@ -97,7 +97,7 @@
   "devDependencies": {
     "html-loader": "^0.5.5",
     "markdown-loader": "^4.0.0",
-    "marked": "^0.6.3",
+    "marked": "^0.7.0",
     "node-sass": "^4.13.1",
     "react-test-renderer": "^16.8.6",
     "sass-loader": "^7.1.0",
