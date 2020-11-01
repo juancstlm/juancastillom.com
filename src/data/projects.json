@@ -10,7 +10,7 @@
     "demo": "",
     "demoString": "Coming Soon",
     "images":["images/projects/atlas1.png", "images/projects/atlas2.png", "images/projects/atlas3.png"],
-    "tech": ["React Native", "Redux", "Jest", "MongoDB", "D3"],
+    "tech": ["React Native", "Redux", "Jest", "Realm", "Azure DevOps"],
     "isCurrentProject": true
   },
   {
