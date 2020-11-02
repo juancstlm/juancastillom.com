@@ -8,7 +8,7 @@
     "date":"Jul. 2019",
     "source": "https://github.com/juancstlm/Atlas",
     "demo": "https://testflight.apple.com/join/qK8mzMGl",
-    "demoString": "Coming Soon",
+    "demoString": "Link",
     "images":["images/projects/atlas1.png", "images/projects/atlas2.png", "images/projects/atlas3.png"],
     "tech": ["React Native", "Redux", "Jest", "Realm", "Azure DevOps"],
     "isCurrentProject": true
