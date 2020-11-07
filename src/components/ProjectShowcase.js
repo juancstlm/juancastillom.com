@@ -90,7 +90,8 @@ const ProjectShowcase = ({ project }) => {
           </li>
         </ul>
         <div className={'project-links'}>
-          <Button link={demo} disabled={!demo}>{demoString}</Button>
+          {demoString === 'App Store' ? <a href={demo} className='appstore' ><img alt={'App Store'} src={"images/appstoreBadge.svg"}/></a> : <Button link={demo} disabled={!demo}>{demoString}</Button>
+          }
           {source ?  <Button buttonStyle={'secondary'} link={source}>Source Code</Button> : null}
         </div>
       </div>

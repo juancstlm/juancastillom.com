@@ -51,6 +51,8 @@
   .project-links{
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
   }
 
   ul{
@@ -131,4 +133,7 @@
     pointer-events: none;
     cursor: default;
   }
+}
+.appstore {
+  cursor: pointer;
 }
