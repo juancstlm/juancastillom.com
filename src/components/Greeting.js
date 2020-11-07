@@ -6,7 +6,8 @@ const Greeting = () => {
   return (
     <section id="home" className="middle">
       <MarkdownViewer markdown={about.default} />
-      <a className="scroll home-s-btn hor-center">
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+      <a href={'#'} className="scroll home-s-btn hor-center">
         <span className="dot center" />
       </a>
     </section>
