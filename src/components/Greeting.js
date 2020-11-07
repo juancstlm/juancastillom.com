@@ -5,7 +5,7 @@ const about = require("../data/about.md");
 const Greeting = () => {
   return (
     <section id="home" className="middle">
-      <MarkdownViewer markdown={about} />
+      <MarkdownViewer markdown={about.default} />
       <a className="scroll home-s-btn hor-center">
         <span className="dot center" />
       </a>

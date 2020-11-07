@@ -38,6 +38,7 @@
     width: 100%;
     max-width: 840px;
     margin-left: 20px;
+    height: 840px;
 
     img{
       width: 100%;
@@ -80,10 +81,12 @@
     position: absolute;
   }
   .preview2{
-    z-index: 5;
+    z-index: 3;
+    position: absolute;
   }
   .preview3{
     z-index: 2;
+    position: absolute;
   }
 }
 @media (max-width: $tablet){
