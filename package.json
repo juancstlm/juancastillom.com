@@ -13,6 +13,7 @@
     "react-ga": "^3.2.0",
     "react-scripts": "4.0.0",
     "react-scroll-parallax": "^2.3.4",
+    "react-test-renderer": "^17.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -41,6 +42,7 @@
   },
   "devDependencies": {
     "markdown-loader": "^6.0.0",
+    "prop-types": "^15.7.2",
     "travis-ci-cloudfront-invalidation": "^1.1.0"
   }
 }
