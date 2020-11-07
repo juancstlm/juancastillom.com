@@ -38,6 +38,7 @@
     width: 100%;
     max-width: 840px;
     margin-left: 20px;
+    height: 840px;
 
     img{
       width: 100%;
@@ -50,6 +51,8 @@
   .project-links{
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
   }
 
   ul{
@@ -80,10 +83,12 @@
     position: absolute;
   }
   .preview2{
-    z-index: 5;
+    z-index: 3;
+    position: absolute;
   }
   .preview3{
     z-index: 2;
+    position: absolute;
   }
 }
 @media (max-width: $tablet){
@@ -128,4 +133,7 @@
     pointer-events: none;
     cursor: default;
   }
+}
+.appstore {
+  cursor: pointer;
 }

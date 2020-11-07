@@ -1,22 +1,20 @@
-import React, { Component } from 'react';
 import './App.scss'
 import Greeting from "./components/Greeting";
 import Footer from './components/Footer/Footer'
 import { ParallaxProvider } from "react-scroll-parallax";
 import ProjectGrid from "./components/ProjectGrid";
+import React from "react";
 
-class App extends Component {
-  render() {
-    return (
-      <ParallaxProvider>
+function App() {
+  return (
+    <ParallaxProvider scrollAxis={'vertical'}>
       <div className={'layout'}>
-          <Greeting/>
-          <ProjectGrid projects={require('./data/projects')}/>
-          <Footer/>
+        <Greeting/>
+        <ProjectGrid projects={require('./data/projects')}/>
+        <Footer/>
       </div>
-      </ParallaxProvider>
-    );
-  }
+    </ParallaxProvider>
+  );
 }
 
 export default App;

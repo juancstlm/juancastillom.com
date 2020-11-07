@@ -81,7 +81,7 @@
     "demoString": "Link",
     "images":["images/projects/wemart-mobile.png", "images/projects/wemart.png"],
     "tech": ["React ", "Redux", "Jest","Instacart Snacks", "AWS Lambda", "Stripe", "Algolia", "AWS Dynamo", "AWS Cognito"],
-    "isCurrentProject": true
+    "isCurrentProject": false
   },
   {
     "name": "Smart Inventory",

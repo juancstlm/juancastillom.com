@@ -7,7 +7,7 @@ const ProjectGrid = ({ projects }) => {
     return projects
       .filter(project => project.isCurrentProject)
       .map(project => {
-        return <ProjectShowcase project={project} />;
+        return <ProjectShowcase key={project.name} project={project} />;
       });
   };
 
@@ -15,7 +15,7 @@ const ProjectGrid = ({ projects }) => {
     return projects
       .filter(project => !project.isCurrentProject)
       .map(project => {
-        return <ProjectShowcase project={project} />;
+        return <ProjectShowcase key={project.name} project={project} />;
       });
   }
 

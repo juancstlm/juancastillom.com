@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="logo">
           <img src="./images/logo.png" alt="logo" />
         </div>
-        <MarkdownViewer markdown={contact} />
+        <MarkdownViewer markdown={contact.default} />
       </div>
     </footer>
   );

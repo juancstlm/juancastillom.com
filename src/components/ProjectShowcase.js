@@ -26,8 +26,10 @@ const ProjectShowcase = ({ project }) => {
         <div style={{ position: "relative" }}>
           <Parallax
             className="preview1"
-            offsetYMax={10}
-            offsetYMin={-10}
+            x={[0,0]}
+            y={[-10,8]}
+            // offsetYMax={10}
+            // offsetYMin={-10}
             slowerScrollRate
             tag="parallax"
           >
@@ -36,8 +38,10 @@ const ProjectShowcase = ({ project }) => {
           {length > 1 ? (
             <Parallax
               className="preview2"
-              offsetYMax={15}
-              offsetYMin={10}
+              x={[0,0]}
+              y={[5,-15]}
+              // offsetYMax={15}
+              // offsetYMin={10}
               tag={length > 2 ? "parallax" : "div"}
             >
               <img src={images[1]} alt="preview" />
@@ -46,8 +50,10 @@ const ProjectShowcase = ({ project }) => {
           {length > 2 ? (
             <Parallax
               className="preview3"
-              offsetYMax={10}
-              offsetYMin={-20}
+              // offsetYMax={10}
+              // offsetYMin={-20}
+              x={[0,0]}
+              y={[-5,10]}
               tag="div"
             >
               <img src={images[2]} alt="preview" />
@@ -84,7 +90,8 @@ const ProjectShowcase = ({ project }) => {
           </li>
         </ul>
         <div className={'project-links'}>
-          <Button link={demo} disabled={!demo}>{demoString}</Button>
+          {demoString === 'App Store' ? <a href={demo} className='appstore' ><img alt={'App Store'} src={"images/appstoreBadge.svg"}/></a> : <Button link={demo} disabled={!demo}>{demoString}</Button>
+          }
           {source ?  <Button buttonStyle={'secondary'} link={source}>Source Code</Button> : null}
         </div>
       </div>
