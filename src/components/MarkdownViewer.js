@@ -11,7 +11,6 @@ const MarkdownViewer = ({ markdown }) => {
     .then(text => {
       setMarkdown(marked(text));
     })
-  console.log(markdown)
 
   return <div dangerouslySetInnerHTML={{ __html: mkdown }} />;
 };

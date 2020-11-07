@@ -16,7 +16,7 @@ exports[`renders correctly 1`] = `
     <div
       dangerouslySetInnerHTML={
         Object {
-          "__html": "footer.md",
+          "__html": undefined,
         }
       }
     />
